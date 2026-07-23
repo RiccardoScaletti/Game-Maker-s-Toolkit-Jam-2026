@@ -40,7 +40,7 @@ public class CanvasManager : MonoBehaviour
 
     public void LoadGame()
     {
-        SceneManager.LoadScene("InGame");
+        SceneManager.LoadScene("MainGame");
     }
 
     public void QuitGame()
