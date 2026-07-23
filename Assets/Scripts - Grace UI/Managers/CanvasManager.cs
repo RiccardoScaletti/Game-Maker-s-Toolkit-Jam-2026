@@ -46,5 +46,6 @@ public class CanvasManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+        Debug.Log("Quit Button Pressed");
     }
 }
