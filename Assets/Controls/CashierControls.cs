@@ -118,6 +118,15 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""OpenCloseCashier"",
+                    ""type"": ""Button"",
+                    ""id"": ""5cb39a60-09cd-4c5d-b31f-63ca1fab956f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -153,6 +162,17 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
                     ""action"": ""Confirm"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8ecfe214-8c5e-4dbf-8963-f0d135ae7492"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""OpenCloseCashier"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,6 +184,7 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
         m_Cashier_SelectNext = m_Cashier.FindAction("SelectNext", throwIfNotFound: true);
         m_Cashier_SelectPrevious = m_Cashier.FindAction("SelectPrevious", throwIfNotFound: true);
         m_Cashier_Confirm = m_Cashier.FindAction("Confirm", throwIfNotFound: true);
+        m_Cashier_OpenCloseCashier = m_Cashier.FindAction("OpenCloseCashier", throwIfNotFound: true);
     }
 
     ~@CashierControls()
@@ -247,6 +268,7 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Cashier_SelectNext;
     private readonly InputAction m_Cashier_SelectPrevious;
     private readonly InputAction m_Cashier_Confirm;
+    private readonly InputAction m_Cashier_OpenCloseCashier;
     /// <summary>
     /// Provides access to input actions defined in input action map "Cashier".
     /// </summary>
@@ -270,6 +292,10 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Cashier/Confirm".
         /// </summary>
         public InputAction @Confirm => m_Wrapper.m_Cashier_Confirm;
+        /// <summary>
+        /// Provides access to the underlying input action "Cashier/OpenCloseCashier".
+        /// </summary>
+        public InputAction @OpenCloseCashier => m_Wrapper.m_Cashier_OpenCloseCashier;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -305,6 +331,9 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
             @Confirm.started += instance.OnConfirm;
             @Confirm.performed += instance.OnConfirm;
             @Confirm.canceled += instance.OnConfirm;
+            @OpenCloseCashier.started += instance.OnOpenCloseCashier;
+            @OpenCloseCashier.performed += instance.OnOpenCloseCashier;
+            @OpenCloseCashier.canceled += instance.OnOpenCloseCashier;
         }
 
         /// <summary>
@@ -325,6 +354,9 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
             @Confirm.started -= instance.OnConfirm;
             @Confirm.performed -= instance.OnConfirm;
             @Confirm.canceled -= instance.OnConfirm;
+            @OpenCloseCashier.started -= instance.OnOpenCloseCashier;
+            @OpenCloseCashier.performed -= instance.OnOpenCloseCashier;
+            @OpenCloseCashier.canceled -= instance.OnOpenCloseCashier;
         }
 
         /// <summary>
@@ -386,5 +418,12 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnConfirm(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "OpenCloseCashier" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnOpenCloseCashier(InputAction.CallbackContext context);
     }
 }
