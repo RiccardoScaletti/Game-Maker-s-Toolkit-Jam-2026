@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "CashierControls",
+    "maps": [
+        {
+            "name": "Cashier",
+            "id": "6fc0a27b-ed84-4758-97bb-0036f8737dec",
+            "actions": [
+                {
+                    "name": "SelectNext",
+                    "type": "Button",
+                    "id": "1b465fa6-4d8d-489d-aa46-db3b101fc671",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SelectPrevious",
+                    "type": "Button",
+                    "id": "5eb6f7f5-0151-4f8f-8665-10072b65b340",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Confirm",
+                    "type": "Button",
+                    "id": "b5a5d8e6-1c11-4da9-ab32-244b267d4049",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8b64e62d-21f5-46fd-9935-28938a2e4b9f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectNext",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50ff620f-4fb8-4369-8799-fac541a85fdb",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectPrevious",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "131db9af-4cfa-4c0b-82bc-4add63bde3b9",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Confirm",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

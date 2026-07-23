@@ -10,23 +10,32 @@ public class CashierGameManager : MonoBehaviour
         instance = this;
     }
 
-    [SerializeField] private TextMeshProUGUI Cashiertext;
-    [SerializeField] private TextMeshProUGUI CurrentChangetext;
+    [Header("Cashier Images")]
+    [SerializeField] private GameObject openDrawer;
+    [SerializeField] private GameObject closedDrawer;
     [SerializeField] private GameObject[] clientsImages;
 
-    private int[] changeNeeded;
-    private int currentClient = 0;
+    [Header("TMP Texts")]
+    [SerializeField] private TextMeshProUGUI Cashiertext;
+    [SerializeField] private TextMeshProUGUI CurrentChangetext;
 
+
+    private int[] changeNeeded;
+    [SerializeField]private int currentClient = 0;
     public int selectedChange = 0;
+
+
+    //activate debugs only if on
+    [SerializeField] private bool isDebug;
 
     private void Start()
     {
         changeNeeded = new int[clientsImages.Length];
+        DrawerStateCheck(false);
 
         for (int i = 0; i < changeNeeded.Length; i++)
         {
             changeNeeded[i] = Random.Range(1, 1001); // cents: 1–1000
-            clientsImages[i].SetActive(i == 0);
         }
 
         ShowCurrentClient();
@@ -45,6 +54,7 @@ public class CashierGameManager : MonoBehaviour
         Cashiertext.text = $"{changeNeeded[currentClient] / 100f:0.00}\n";
     }
 
+    
     // Assign this from each UI button.
     // Example: penny = 1, nickel = 5, dime = 10, dollar = 100.
     //public void SubmitChange(int valueInCents)
@@ -82,4 +92,21 @@ public class CashierGameManager : MonoBehaviour
         selectedChange = 0;
         ShowCurrentClient();
     }
+
+    public void DrawerStateCheck(bool open)
+    {
+        if (isDebug) Debug.Log("clicked!");
+        if (open)
+        {
+            openDrawer.SetActive(true);
+            closedDrawer.SetActive(false);
+        }
+        else
+        {
+            openDrawer.SetActive(false); 
+            closedDrawer.SetActive(true);
+        }
+    }
+
+
 }
