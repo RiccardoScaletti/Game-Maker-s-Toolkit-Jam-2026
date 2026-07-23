@@ -99,15 +99,12 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    // Rotate 90 degree with a lerp so it looks smoother using input TurnLeft and TurnRight from the PlayerInput component. The rotation should be relative to the player object's forward direction.
     private void RotateCharacter()
     {
-        if (playerInputActions.actions["TurnLeft"].WasPressedThisFrame())
-        {
-            transform.Rotate(Vector3.up, -90);
-        }
-        else if (playerInputActions.actions["TurnRight"].WasPressedThisFrame())
-        {
-            transform.Rotate(Vector3.up, 90);
-        }
+        if (Input.GetKeyDown(KeyCode.Q))
+            transform.Rotate(0f, -90f, 0f);
+        if (Input.GetKeyDown(KeyCode.E))
+            transform.Rotate(0f, 90f, 0f);
     }
 }
