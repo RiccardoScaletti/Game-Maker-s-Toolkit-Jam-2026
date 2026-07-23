@@ -2,21 +2,22 @@ using UnityEngine;
 
 namespace EnemyAI.StateMachine
 {
-    public enum EnemyType { Patrolling }
     public class EnemyStateMachine : MonoBehaviour
     {
-        public EnemyType enemyType;
+        Enemy curEnemy;
         BaseState curState;
 
-        private void Start()
+        public void InitializeStateMachine()
         {
-            switch (enemyType)
+            curEnemy = GetComponent<Enemy>();
+
+            switch (curEnemy.enemyType)
             {
-                case EnemyType.Patrolling:
-                    // Initialize curState with Patrolling State
+                case eEnemyType.Patrolling:
+                    ChangeState(new PatrolState());
                     break;
                 default:
-                    // initialize with a default state
+                    ChangeState(new PatrolState());
                     break;
             }
         }
@@ -37,6 +38,7 @@ namespace EnemyAI.StateMachine
             if (curState != null)
             {
                 curState.stateMachine = this;
+                curState.enemy = curEnemy;
                 curState?.Enter();
             }
         }
