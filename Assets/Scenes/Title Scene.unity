@@ -884,6 +884,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3537216811599295375, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 98.7323
+      objectReference: {fileID: 0}
+    - target: {fileID: 3537216811599295375, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 4602047570929304989, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -915,6 +923,10 @@ PrefabInstance:
     - target: {fileID: 4838492859388891073, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891906086606022370, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
+      propertyPath: m_text
+      value: Joblin
       objectReference: {fileID: 0}
     - target: {fileID: 5989983700865746034, guid: 2f3130605f79f3c46b73350997f6be85, type: 3}
       propertyPath: m_AnchorMax.y
