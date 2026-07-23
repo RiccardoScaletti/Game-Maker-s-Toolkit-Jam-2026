@@ -13,23 +13,22 @@ public class PlayerManager : MonoBehaviour
 
     private static PlayerManager instance = null;
 
-    [SerializeField] private InputActionAsset Player;
-    private InputAction moveForward;
-    private InputAction moveLeft;
-    private InputAction moveRight;
-    private InputAction moveBack;
-    private InputAction interact;
+    private PlayerInput playerInputActions;
+    private CharacterController controller;
 
-    private Vector3 moveValue;
+    public float interactableCheckRadius = 3f;
 
-    private CharacterController characterController;
+    private Vector3 moveDirection;
+    private Vector2 inputVector;
+
+    [SerializeField] private float moveSpeed = 5f;
 
     public bool isPaused = false;
     public bool youLose = false;
     public bool youWin = false;
     public bool inputAllowed = true;
 
-    void awake()
+    void Awake()
     {
         if (instance)
         {
@@ -39,18 +38,21 @@ public class PlayerManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
 
-        Player.Enable();
-
-        moveForward = Player.FindAction("Forward");
-        moveLeft = Player.FindAction("Left");
-        moveRight = Player.FindAction("Right");
-        moveBack = Player.FindAction("Backward");
-        interact = Player.FindAction("Interact");
-
-        characterController = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
+        playerInputActions = GetComponent<PlayerInput>();
     }
 
-    void update()
+    private void OnEnable()
+    {
+        playerInputActions.enabled = true;
+    }
+
+    private void OnDisable()
+    {
+        playerInputActions.enabled = false;
+    }
+
+    void Update()
     {
         if (youLose || youWin)
         {
@@ -61,15 +63,51 @@ public class PlayerManager : MonoBehaviour
             inputAllowed = true;
         }
 
-        moveValue = Vector3.zero;
-        if (moveValue != null && !isPaused)
+        Movement();
+        InteractCheck();
+        RotateCharacter();
+    }
+
+    // Moves the player relative to the player object's forward and right directions based on the input vector from the PlayerInput component
+    private void Movement()
+    {
+        if (inputAllowed)
         {
-            // Handle movement logic here
+            inputVector = playerInputActions.actions["Move"].ReadValue<Vector2>();
+            moveDirection = new Vector3(inputVector.x, 0, inputVector.y);
+            moveDirection = transform.TransformDirection(moveDirection);
+            controller.Move(moveDirection * moveSpeed * Time.deltaTime);
         }
-        
-        if (interact.WasPressedThisFrame() && !isPaused)
+    }
+
+    // Checks for nearby interactables and when interact is pressed it grabs their Interactable component and calls the Interact() method on it
+    private void InteractCheck()
+    {
+        if (playerInputActions.actions["Interact"].WasPressedThisFrame() && !isPaused)
         {
-            // Handle interaction logic here
+            Collider[] hitColliders = Physics.OverlapSphere(transform.position, interactableCheckRadius);
+            foreach (var hitCollider in hitColliders)
+            {
+                Interactable interactable = hitCollider.GetComponent<Interactable>();
+                if (interactable != null)
+                {
+                    interactable.interactedWith = true;
+                    interactable.Interact();
+                    break; // Interact with the first interactable found
+                }
+            }
+        }
+    }
+
+    private void RotateCharacter()
+    {
+        if (playerInputActions.actions["TurnLeft"].WasPressedThisFrame())
+        {
+            transform.Rotate(Vector3.up, -90);
+        }
+        else if (playerInputActions.actions["TurnRight"].WasPressedThisFrame())
+        {
+            transform.Rotate(Vector3.up, 90);
         }
     }
 }
