@@ -12,11 +12,14 @@ public class SpriteDirectionChanger : MonoBehaviour
     private Transform camTransform;
     private Billboard billboard;
 
+    private Animator animator;
+
     [SerializeField] private bool flipRightSide;
     [SerializeField] private bool flipLeftSide;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         lastPosition = transform.position;
         camTransform = Camera.main.transform;
@@ -24,6 +27,11 @@ public class SpriteDirectionChanger : MonoBehaviour
     }
 
     void Update()
+    {
+        SpriteSwap();
+    }
+
+    private void SpriteSwap()
     {
         // 1. Calculate movement direction
         Vector3 moveDir = (transform.position - lastPosition) / Time.deltaTime;
@@ -40,28 +48,40 @@ public class SpriteDirectionChanger : MonoBehaviour
             float angle = Vector3.SignedAngle(camForward, moveDir.normalized, Vector3.up);
 
             // 4. Choose sprite based on angle quadrants
+            // Moving Backward
             if (angle >= -45f && angle <= 45f)
             {
+                animator.SetBool("isBackward", true);
+                animator.SetBool("isForward", false);
+                animator.SetBool("isSideways", false);
                 spriteRenderer.flipX = false;
-                spriteRenderer.sprite = backSprite; // Moving away from camera
                 billboard.enabled = true;
             }
+            // Moving Forward
             else if (angle >= 135f || angle <= -135f)
             {
+                animator.SetBool("isBackward", false);
+                animator.SetBool("isForward", true);
+                animator.SetBool("isSideways", false); 
                 spriteRenderer.flipX = false;
-                spriteRenderer.sprite = frontSprite; // Moving toward camera
                 billboard.enabled = false; // Disable billboard when moving toward camera
             }
+            // Moving Right
             else if (angle > 45f && angle < 135f)
             {
+                animator.SetBool("isBackward", false);
+                animator.SetBool("isForward", false);
+                animator.SetBool("isSideways", true);
                 spriteRenderer.flipX = flipRightSide;
-                spriteRenderer.sprite = rightSprite; // Moving right relative to camera
                 billboard.enabled = true;
             }
+            // Moving Left
             else
             {
-                spriteRenderer.flipX = flipLeftSide ;
-                spriteRenderer.sprite = leftSprite;
+                animator.SetBool("isBackward", false);
+                animator.SetBool("isForward", false);
+                animator.SetBool("isSideways", true);
+                spriteRenderer.flipX = flipLeftSide;
                 billboard.enabled = true;
             }
         }
