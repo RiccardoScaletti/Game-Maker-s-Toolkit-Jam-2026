@@ -57,7 +57,7 @@ public class TutorialBillboard : MonoBehaviour
             billboardCanvas.transform.position -
             cameraTransform.position;
 
-        direction.y = 0f;
+        direction.y = -3f;
 
         if (direction.sqrMagnitude > 0.001f)
         {
