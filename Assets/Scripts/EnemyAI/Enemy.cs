@@ -21,6 +21,8 @@ namespace EnemyAI
         public float fieldOfView = 40f;
         public float eyeHeight;
         public float maxTimeToLosePlayer = 8f;
+        [Space(.5f)]
+        public bool showRay;
         [HideInInspector]
         public Vector3 lastKnownPlayerPos;
 
@@ -88,7 +90,8 @@ namespace EnemyAI
                     // if player is not behind a wall
                     if (Physics.Raycast(ray, out hitInfo, sightDistance) && hitInfo.transform.gameObject == player)
                     {
-                        Debug.DrawRay(ray.origin, ray.direction * sightDistance);
+                        if (showRay)
+                            Debug.DrawRay(ray.origin, ray.direction * sightDistance);
                         return true;
                     }
                 }

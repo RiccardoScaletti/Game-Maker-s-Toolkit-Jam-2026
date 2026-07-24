@@ -13,7 +13,7 @@ namespace EnemyAI.StateMachine
 
             switch (curEnemy.enemyType)
             {
-                case eEnemyType.Patrolling:
+                case eEnemyType.Minion:
                     ChangeState(new PatrolState());
                     break;
                 default:
