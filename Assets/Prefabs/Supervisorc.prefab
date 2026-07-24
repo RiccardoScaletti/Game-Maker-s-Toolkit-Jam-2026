@@ -231,7 +231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b63501d910ddf4a44bca61bada5d7493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteDirectionChanger
-  spriteRenderer: {fileID: 2655840192765128688}
   frontSprite: {fileID: 650000255, guid: 56222f3609f39074da956a67a2c86e34, type: 3}
   backSprite: {fileID: 1433405252, guid: 139212b948dd5d1489de4b3d96602f19, type: 3}
   rightSprite: {fileID: -836910677, guid: 1259c85ba4d39a84ab7ef54664bbb2d6, type: 3}
