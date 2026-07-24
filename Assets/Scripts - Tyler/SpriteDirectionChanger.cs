@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpriteDirectionChanger : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer;
+    private SpriteRenderer spriteRenderer;
     public Sprite frontSprite;
     public Sprite backSprite;
     public Sprite rightSprite;
@@ -17,6 +17,7 @@ public class SpriteDirectionChanger : MonoBehaviour
 
     void Start()
     {
+        spriteRenderer = GetComponent<SpriteRenderer>();
         lastPosition = transform.position;
         camTransform = Camera.main.transform;
         billboard = GetComponentInParent<Billboard>();

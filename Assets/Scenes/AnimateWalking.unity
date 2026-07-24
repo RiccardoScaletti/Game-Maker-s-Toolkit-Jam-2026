@@ -119,33 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &266649742 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7956997020882411879, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-  m_PrefabInstance: {fileID: 4031000340355750496}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &266649745 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 2655840192765128688, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-  m_PrefabInstance: {fileID: 4031000340355750496}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &266649746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 266649742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b63501d910ddf4a44bca61bada5d7493, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpriteDirectionChanger
-  spriteRenderer: {fileID: 266649745}
-  frontSprite: {fileID: 650000255, guid: 56222f3609f39074da956a67a2c86e34, type: 3}
-  backSprite: {fileID: 1433405252, guid: 139212b948dd5d1489de4b3d96602f19, type: 3}
-  rightSprite: {fileID: -836910677, guid: 1259c85ba4d39a84ab7ef54664bbb2d6, type: 3}
-  leftSprite: {fileID: -836910677, guid: 1259c85ba4d39a84ab7ef54664bbb2d6, type: 3}
 --- !u!1 &752803859
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,23 +289,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
---- !u!1 &1127461983 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-  m_PrefabInstance: {fileID: 4031000340355750496}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1127461988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1127461983}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc176a83b888bab4a84fa55a79be9846, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Billboard
 --- !u!4 &1143245150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5815697434231780003, guid: 6317195bc4ccb404c8f9d7f6073b5e6c, type: 3}
@@ -764,14 +720,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2655840192765128688, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2655840192765128688, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-      propertyPath: m_FlipY
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
       propertyPath: m_Name
       value: Supervisorc
@@ -831,13 +779,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1127461988}
-    - targetCorrespondingSourceObject: {fileID: 7956997020882411879, guid: b27b183ac0a22004982ae77379b70656, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 266649746}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b27b183ac0a22004982ae77379b70656, type: 3}
 --- !u!1001 &5929686393841260728
 PrefabInstance:
