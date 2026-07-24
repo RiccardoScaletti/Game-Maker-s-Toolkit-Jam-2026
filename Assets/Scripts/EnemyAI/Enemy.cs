@@ -11,7 +11,7 @@ namespace EnemyAI
     [RequireComponent(typeof(EnemyStateMachine), typeof(NavMeshAgent))]
     public class Enemy : MonoBehaviour
     {
-        public string currentState;
+        public string debugCurState;
         public NavMeshAgent Agent { get; private set; }
         public eEnemyType enemyType;
 

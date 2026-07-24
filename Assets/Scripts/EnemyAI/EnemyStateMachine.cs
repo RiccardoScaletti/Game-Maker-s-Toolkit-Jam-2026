@@ -37,13 +37,13 @@ namespace EnemyAI.StateMachine
             // start new state
             if (curState != null)
             {
-                curEnemy.currentState = curState.GetType().Name;
+                curEnemy.debugCurState = curState.GetType().Name;
                 curState.stateMachine = this;
                 curState.enemy = curEnemy;
                 curState?.Enter();
             }
             else
-                curEnemy.currentState = "NULL";
+                curEnemy.debugCurState = "NULL";
         }
     }
 }
