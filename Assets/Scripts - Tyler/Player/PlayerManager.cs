@@ -3,13 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static PlayerManager Instance
-    {
-        get
-        {
-            return Instance;
-        }
-    }
+    public static PlayerManager Instance { get; private set; }
 
     private static PlayerManager instance = null;
 
@@ -28,6 +22,9 @@ public class PlayerManager : MonoBehaviour
     public bool youWin = false;
     public bool inputAllowed = true;
 
+    private Animator animator;
+    private SpriteRenderer spriteRenderer;
+
     void Awake()
     {
         if (instance)
@@ -35,11 +32,11 @@ public class PlayerManager : MonoBehaviour
             DestroyImmediate(gameObject);
         }
         instance = this;
-        DontDestroyOnLoad(gameObject);
-
 
         controller = GetComponent<CharacterController>();
         playerInputActions = GetComponent<PlayerInput>();
+        animator = GetComponentInChildren<Animator>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     private void OnEnable()
@@ -66,6 +63,7 @@ public class PlayerManager : MonoBehaviour
         Movement();
         InteractCheck();
         RotateCharacter();
+        SpriteControl();
     }
 
     // Moves the player relative to the player object's forward and right directions based on the input vector from the PlayerInput component
@@ -99,12 +97,27 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    // Rotate 90 degree with a lerp so it looks smoother using input TurnLeft and TurnRight from the PlayerInput component. The rotation should be relative to the player object's forward direction.
+    // Rotate 90 degree the cinemachine handles the rotation of the camera so we just need to rotate the player object
     private void RotateCharacter()
     {
         if (playerInputActions.actions["TurnLeft"].WasPressedThisFrame() && !isPaused)
             transform.Rotate(0f, -90f, 0f);
         if (playerInputActions.actions["TurnRight"].WasPressedThisFrame() && !isPaused)
             transform.Rotate(0f, 90f, 0f);
+    }
+
+    private void SpriteControl()
+    {
+        bool isMoving = inputVector.magnitude > 0;
+        animator.SetBool("isWalking", isMoving);
+
+        if (inputVector.x > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (inputVector.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
     }
 }

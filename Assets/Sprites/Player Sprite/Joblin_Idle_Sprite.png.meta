@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 495aefbace8704648bd55f11f0e549ec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 5773
+        width: 338
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330bcd1d622e60d419ba6e3c1c7cfb53
+      internalID: 759156157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 5773
+        width: 335
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d170bf743fe9840899ab4dcdbab1fb
+      internalID: 872205587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 5773
+        width: 335
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d18a47427aba0847a2c0c86957ba319
+      internalID: 933710048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 5773
+        width: 332
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce01366a05c6c14cac4133b5f6761f3
+      internalID: 599606746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 5773
+        width: 334
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff45396f1663324698ef4fffccad03a
+      internalID: -491164176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 5052
+        width: 332
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139ddab7e4674b24bb610aa6f7ef919f
+      internalID: 1037019971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 5052
+        width: 332
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff617244bb7afa74aa9b7be5d5489cd5
+      internalID: -1374609721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 5052
+        width: 329
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257602a354961949afc5d88bdfd319f
+      internalID: 1504177810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 5052
+        width: 332
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a8baa8214809041b7a1efaf0e70e48
+      internalID: 376952295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 5052
+        width: 329
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05bdb1db18343a4ea99c29a09cc571c
+      internalID: 1353792609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 4333
+        width: 332
+        height: 687
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335f8317ba94cd4f83bc7477abe2658
+      internalID: 1102634530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 4333
+        width: 330
+        height: 687
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310e951267f9ac449f53185e99f3285
+      internalID: 738941145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 4333
+        width: 329
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c6cb6810ee67545b8654819dce2c79
+      internalID: -54747931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 4333
+        width: 332
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285219cb81a699f498727df59acad59d
+      internalID: -168960034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 4333
+        width: 330
+        height: 684
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffb520d30b95604194e7f3ff7cd1464
+      internalID: 442432093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 3612
+        width: 332
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a401b7bf429f3c942bc74ad2cb376a44
+      internalID: -1086829104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 3612
+        width: 332
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd09fcc6145c6eb47a32ca0690ed1575
+      internalID: 1709928927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 3612
+        width: 335
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e97c36303a18994ba5002ba363e89d4
+      internalID: 1101760259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 3612
+        width: 332
+        height: 683
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d48aab0ec41d4d49b64a6a17c6d221f
+      internalID: -50605938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 3612
+        width: 336
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1bdc3dc57499e43aa22151a3889d7a
+      internalID: -176596277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2894
+        width: 335
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f78f01d3c1e9054ca6a9d91820cc212
+      internalID: 1412974275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 2894
+        width: 338
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3693ce7170134a547943f29e2fd2f448
+      internalID: 1057050969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 2894
+        width: 341
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd85fdb08895ac48842b78f2ddae080
+      internalID: 1106648783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 2894
+        width: 339
+        height: 676
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8b82a015420c940b3eb775b3a6c557
+      internalID: 664236937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2894
+        width: 342
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85de39a4832216a488571f1dd3952fb4
+      internalID: -983162859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2172
+        width: 345
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccbca56cc3520743ab0b7865cef561c
+      internalID: 1806203022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2172
+        width: 344
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc368e74b8f43a24daea943e79006e16
+      internalID: 969904790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2172
+        width: 348
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7bce85b656c7d46967bb72ea05c21a
+      internalID: 2023449575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 2172
+        width: 351
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67d045100e36874eb089d4f25f13978
+      internalID: -1697133653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 2172
+        width: 348
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1ca7ca828f35b4abc96d64590c1931
+      internalID: -306986019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1454
+        width: 348
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905c6c60def38b44181ee3da4c7741b1
+      internalID: -248221151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1454
+        width: 350
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fc029786fb60c439aaa4cfcc0292fd
+      internalID: -1675688875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1454
+        width: 348
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91d260937a35ec448d882451dd55cf6
+      internalID: 1085772666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2368
+        y: 1454
+        width: 351
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c2510518acc9a46a791ae8dd444930
+      internalID: 1392929042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1454
+        width: 348
+        height: 671
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82630a9e1c9cb3442b51d3286076eb8a
+      internalID: 1232176349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 733
+        width: 348
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a725300242aef8d4db6f94a9035942f1
+      internalID: -987594505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 733
+        width: 350
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69edf66fe2c5bd409a2fc055f96e506
+      internalID: 1283117508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 733
+        width: 348
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e7922cece7774194d2a7fc5913ada
+      internalID: -1891111565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 733
+        width: 345
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf71e1fb46312f4abe587912e4c2644
+      internalID: -1285271503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 733
+        width: 348
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4440334affcc6a47aeb3dc6cb70f6db
+      internalID: -373332314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 14
+        width: 345
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8051944e8d3bad4ab515d0977fecea6
+      internalID: 1115283008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 14
+        width: 344
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e569521b113f24d8ed388e2611bfa7
+      internalID: -900657475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Idle_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 14
+        width: 342
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca71b0ee1dfcccf498fb906dde285837
+      internalID: 8738925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0e0205ec6c3fcf2478ef7ca263860162
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Joblin_Idle_Sprite_0: 759156157
+      Joblin_Idle_Sprite_1: 872205587
+      Joblin_Idle_Sprite_10: 1102634530
+      Joblin_Idle_Sprite_11: 738941145
+      Joblin_Idle_Sprite_12: -54747931
+      Joblin_Idle_Sprite_13: -168960034
+      Joblin_Idle_Sprite_14: 442432093
+      Joblin_Idle_Sprite_15: -1086829104
+      Joblin_Idle_Sprite_16: 1709928927
+      Joblin_Idle_Sprite_17: 1101760259
+      Joblin_Idle_Sprite_18: -50605938
+      Joblin_Idle_Sprite_19: -176596277
+      Joblin_Idle_Sprite_2: 933710048
+      Joblin_Idle_Sprite_20: 1412974275
+      Joblin_Idle_Sprite_21: 1057050969
+      Joblin_Idle_Sprite_22: 1106648783
+      Joblin_Idle_Sprite_23: 664236937
+      Joblin_Idle_Sprite_24: -983162859
+      Joblin_Idle_Sprite_25: 1806203022
+      Joblin_Idle_Sprite_26: 969904790
+      Joblin_Idle_Sprite_27: 2023449575
+      Joblin_Idle_Sprite_28: -1697133653
+      Joblin_Idle_Sprite_29: -306986019
+      Joblin_Idle_Sprite_3: 599606746
+      Joblin_Idle_Sprite_30: -248221151
+      Joblin_Idle_Sprite_31: -1675688875
+      Joblin_Idle_Sprite_32: 1085772666
+      Joblin_Idle_Sprite_33: 1392929042
+      Joblin_Idle_Sprite_34: 1232176349
+      Joblin_Idle_Sprite_35: -987594505
+      Joblin_Idle_Sprite_36: 1283117508
+      Joblin_Idle_Sprite_37: -1891111565
+      Joblin_Idle_Sprite_38: -1285271503
+      Joblin_Idle_Sprite_39: -373332314
+      Joblin_Idle_Sprite_4: -491164176
+      Joblin_Idle_Sprite_40: 1115283008
+      Joblin_Idle_Sprite_41: -900657475
+      Joblin_Idle_Sprite_42: 8738925
+      Joblin_Idle_Sprite_5: 1037019971
+      Joblin_Idle_Sprite_6: -1374609721
+      Joblin_Idle_Sprite_7: 1504177810
+      Joblin_Idle_Sprite_8: 376952295
+      Joblin_Idle_Sprite_9: 1353792609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
