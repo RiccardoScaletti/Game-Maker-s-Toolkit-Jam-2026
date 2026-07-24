@@ -4,7 +4,7 @@ using UnityEngine.AI;
 
 namespace EnemyAI
 {
-    public enum eEnemyType { Patrolling }
+    public enum eEnemyType { Patrolling, Supervisor }
     /// <summary>
     /// Generic class for enemy logic
     /// </summary>
@@ -30,6 +30,10 @@ namespace EnemyAI
         [Header("Path Logic")]
         public EnemyPath path;
 
+        [Header("Animation")]
+        public Animator anim;
+        public float curVelocity;
+
         private EnemyStateMachine stateMachine;
 
         private void Start()
@@ -37,10 +41,33 @@ namespace EnemyAI
             Agent = GetComponent<NavMeshAgent>();
             stateMachine = GetComponent<EnemyStateMachine>();
             stateMachine.InitializeStateMachine();
+
+            if (!TryGetComponent<Animator>(out anim) && transform.childCount > 0)
+            {
+                transform.GetChild(0).TryGetComponent<Animator>(out anim);
+            }
+
+            if (anim == null)
+            {
+                Debug.LogError($"No animator found on Enemy: {name}");
+            }
         }
 
         private void Update()
         {
+            curVelocity = Agent.velocity.magnitude;
+
+            if (CanSeePlayer())
+                anim.SetBool("canSeePlayer", true);
+            else
+                anim.SetBool("canSeePlayer", false);
+
+            if (Agent.velocity.magnitude > 3.1f)
+                anim.SetFloat("velocity", 3.5f);
+            else if (Agent.velocity.magnitude > 3.5f)
+                anim.SetFloat("velocity", 6f);
+            else
+                anim.SetFloat("velocity", 0);
         }
 
         public bool CanSeePlayer()

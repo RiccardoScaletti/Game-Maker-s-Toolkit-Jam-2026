@@ -289,6 +289,38 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &805626393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
+  m_PrefabInstance: {fileID: 4031000340355750496}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &805626398
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805626393}
+  serializedVersion: 5
+  m_Mass: 100
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &1143245150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5815697434231780003, guid: 6317195bc4ccb404c8f9d7f6073b5e6c, type: 3}
@@ -710,7 +742,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
       propertyPath: m_Name
-      value: Supervisorc
+      value: Supervisor
       objectReference: {fileID: 0}
     - target: {fileID: 6909605430337214031, guid: b27b183ac0a22004982ae77379b70656, type: 3}
       propertyPath: path
@@ -763,7 +795,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6041343642307977533, guid: b27b183ac0a22004982ae77379b70656, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 805626398}
   m_SourcePrefab: {fileID: 100100000, guid: b27b183ac0a22004982ae77379b70656, type: 3}
 --- !u!1001 &5929686393841260728
 PrefabInstance:

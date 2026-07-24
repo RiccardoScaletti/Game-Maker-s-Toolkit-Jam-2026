@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -3108835938204767684}
-    m_Position: {x: 280, y: 110, z: 0}
+    m_Position: {x: 270, y: 100, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6049411823200778682}
     m_Position: {x: 160, y: 210, z: 0}
@@ -36,9 +36,12 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isPatrolling
+  - m_ConditionMode: 2
+    m_ConditionEvent: canSeePlayer
     m_EventTreshold: 0
+  - m_ConditionMode: 3
+    m_ConditionEvent: velocity
+    m_EventTreshold: 3.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6049411823200778682}
   m_Solo: 0
@@ -62,7 +65,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: isChasing
+    m_ConditionEvent: canSeePlayer
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1910792086395618280}
@@ -90,6 +93,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -4790103824549862922}
+  - {fileID: 8746519570000103577}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -105,6 +109,37 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &-2891252789624070502
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: canSeePlayer
+    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velocity
+    m_EventTreshold: 5.5
+  - m_ConditionMode: 3
+    m_ConditionEvent: velocity
+    m_EventTreshold: 3.1
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6049411823200778682}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.85714287
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &-1910792086395618280
 AnimatorState:
   serializedVersion: 6
@@ -117,6 +152,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6116421529600767784}
+  - {fileID: -2891252789624070502}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -141,14 +177,14 @@ AnimatorController:
   m_Name: Supervisorc_Idle_Sprite-Sheet_0
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: isPatrolling
+  - m_Name: canSeePlayer
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: isChasing
-    m_Type: 4
+  - m_Name: velocity
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -203,8 +239,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isChasing
+    m_ConditionEvent: canSeePlayer
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velocity
+    m_EventTreshold: 3.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3108835938204767684}
   m_Solo: 0
@@ -228,8 +267,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: isPatrolling
+    m_ConditionEvent: canSeePlayer
     m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: velocity
+    m_EventTreshold: 3.1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3108835938204767684}
   m_Solo: 0
@@ -240,6 +282,31 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 0.85714287
   m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &8746519570000103577
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: canSeePlayer
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -1910792086395618280}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.9302325
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
