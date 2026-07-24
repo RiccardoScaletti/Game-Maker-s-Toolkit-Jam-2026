@@ -30,7 +30,7 @@ namespace EnemyAI
         public float maxSearchTimer = 10;
 
         [Header("Path Logic")]
-        public EnemyPath path;
+        public EnemyPath mainPath;
 
         [Header("Animation")]
         public Animator anim;
@@ -38,7 +38,7 @@ namespace EnemyAI
 
         private EnemyStateMachine stateMachine;
 
-        private void Start()
+        private void Awake()
         {
             Agent = GetComponent<NavMeshAgent>();
             stateMachine = GetComponent<EnemyStateMachine>();
@@ -52,7 +52,11 @@ namespace EnemyAI
             if (anim == null)
             {
                 Debug.LogError($"No animator found on Enemy: {name}");
-            }
+            }            
+        }
+        private void Start()
+        {
+            player = PlayerManager.Instance.gameObject;
         }
 
         private void Update()

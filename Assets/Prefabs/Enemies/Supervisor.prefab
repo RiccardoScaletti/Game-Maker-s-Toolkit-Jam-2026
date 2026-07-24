@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 6909605430337214031}
   - component: {fileID: 3789442064388609326}
   - component: {fileID: 3539975891873629012}
+  - component: {fileID: 6761219729580796212}
   m_Layer: 3
-  m_Name: Supervisorc
+  m_Name: Supervisor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,15 +49,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI.Enemy
   debugCurState: 
-  enemyType: 0
+  enemyType: 1
   player: {fileID: 0}
   sightDistance: 20
   fieldOfView: 45
   eyeHeight: 1.634
   maxTimeToLosePlayer: 5
+  showRay: 0
   lastKnownPlayerPos: {x: 0, y: 0, z: 0}
   maxSearchTimer: 5
-  path: {fileID: 0}
+  mainPath: {fileID: 0}
+  anim: {fileID: 0}
+  curVelocity: 0
 --- !u!114 &3789442064388609326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91,6 +95,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &6761219729580796212
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6041343642307977533}
+  serializedVersion: 5
+  m_Mass: 100
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 8
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7956997020882411879
 GameObject:
   m_ObjectHideFlags: 0

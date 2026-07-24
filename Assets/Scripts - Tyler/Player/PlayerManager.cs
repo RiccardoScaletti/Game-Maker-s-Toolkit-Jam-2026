@@ -5,8 +5,6 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
 
-    private static PlayerManager instance = null;
-
     private PlayerInput playerInputActions;
     private CharacterController controller;
 
@@ -27,11 +25,13 @@ public class PlayerManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance)
+        if (Instance != null && Instance != this)
         {
-            DestroyImmediate(gameObject);
+            Debug.LogWarning("Excess instance of player singleton");
+            Destroy(gameObject);
+            return;
         }
-        instance = this;
+        Instance = this;
 
         controller = GetComponent<CharacterController>();
         playerInputActions = GetComponent<PlayerInput>();
