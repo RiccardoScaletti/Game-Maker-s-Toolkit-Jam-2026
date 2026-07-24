@@ -25,7 +25,7 @@ namespace EnemyAI.StateMachine
         public override void Perform()
         {
             PatrolCycle();
-            if (enemy.CanSeePlayer())
+            if (enemy.CanSeePlayer() && enemy.enemyType != eEnemyType.Customer)
                 stateMachine.ChangeState(new AttackState());
         }
 

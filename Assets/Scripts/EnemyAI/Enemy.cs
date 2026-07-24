@@ -4,7 +4,7 @@ using UnityEngine.AI;
 
 namespace EnemyAI
 {
-    public enum eEnemyType { Patrolling, Supervisor }
+    public enum eEnemyType { Minion, Supervisor, Customer }
     /// <summary>
     /// Generic class for enemy logic
     /// </summary>

@@ -4,6 +4,8 @@ namespace EnemyAI
 { 
     public class Enemy_Supervisor : Enemy
     {
+        //public EnemyPath 
+
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
