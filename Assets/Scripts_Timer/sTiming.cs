@@ -1,19 +1,21 @@
-using NUnit.Framework;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
 
 public class sTiming : MonoBehaviour
 {
-    [SerializeField] float totalTime;
-    [SerializeField] float timePassed;
-    [SerializeField] float curMultiplier;
-    [SerializeField] List<soTimeKillingAction> actionList;
-    float originalMultiplier = 1f;
 
-    // for testing use only
-    [SerializeField] sActionTrigger action;
+    [NamedArray(typeof(actionName))][SerializeField] soTimeKillingAction[] actions;
+
+    [SerializeField] float totalTime;
+    [SerializeField] float timeLeft;
+    [SerializeField] float curMultiplier;
+
+
+    float originalMultiplier = 1f;
     bool gameStarted = true;
+
+
 
     private void Start()
     {
@@ -23,15 +25,18 @@ public class sTiming : MonoBehaviour
     public void InitTiming()
     {
         ResetTimeMultiplier();
-        action.UpdateTimerText(totalTime, timePassed, curMultiplier);
-
-        StartCoroutine(Countdown(totalTime));
+        if (gameStarted)
+        {
+            StartCoroutine(Countdown(totalTime));
+        }
     }
 
     public void ResetTimeMultiplier()
     {
         curMultiplier = originalMultiplier;
         Debug.Log("current multiplier is: " + curMultiplier);
+        // TODO: update display
+
     }
 
     public void AddMultiplier(float _addedMultiplier)
@@ -40,23 +45,32 @@ public class sTiming : MonoBehaviour
         Debug.Log("current multiplier is: " + curMultiplier);
     }
 
-    IEnumerator Countdown(float _totalTime)
+    public IEnumerator Countdown(float _totalTime)
     {
+        timeLeft = _totalTime;
         yield return new WaitUntil(() => gameStarted);
         // check how much time has passed
-        while (timePassed < _totalTime)
+        while (timeLeft >= 0)
         {
-            yield return new WaitForSeconds(1 / curMultiplier);
-            timePassed += 1;
-            // update UI
-            // temp UI for testing function
-            action.UpdateTimerText(totalTime, timePassed, curMultiplier);
+            yield return new WaitForSecondsRealtime(1f / curMultiplier);
+            timeLeft -= 1f;
+            // TODO: update display
+
         }
         // time ends, end level
         Debug.Log("Level ended");
     }
 
-    // for testing use only
+    // call when within range of the action object
+    public void OnActionPerformed(actionName _action)
+    {
+        AddMultiplier(actions[(int)_action].timeMultiplier);
+    }
+
+    public void OnCaught()
+    {
+        ResetTimeMultiplier();
+    }
 
 
 

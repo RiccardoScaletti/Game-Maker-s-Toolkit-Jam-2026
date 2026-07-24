@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 752cbc1eb36c39246a6689989a1b353e, type: 3}
-  m_Name: 01_Action
+  m_Name: 01_Chat
   m_EditorClassIdentifier: Assembly-CSharp::soTimeKillingAction
-  actionIdx: 1
-  actionName: Pickpocket
+  actionName: 1
+  actionDuration: 0
   timeMultiplier: 0.5
