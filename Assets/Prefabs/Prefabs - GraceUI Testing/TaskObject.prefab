@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TaskInteractable
   keycapSprite: {fileID: 334260156, guid: d8e73924b79015c4fb049a89c5260d14, type: 3}
-  keyLetter: Press "F"
+  keyLetter: Press "E"
   actionMessage: Complete Task
   canOnlyCompleteOnce: 1
   onTaskCompleted:
