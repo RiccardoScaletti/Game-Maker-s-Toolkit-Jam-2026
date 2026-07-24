@@ -16,12 +16,18 @@ namespace EnemyAI
         public eEnemyType enemyType;
 
         [Header("See Player Logic")]
-        public GameObject Player { get; private set; }
+        public GameObject player;
         public float sightDistance = 20;
         public float fieldOfView = 40f;
         public float eyeHeight;
-        public float timeToLosePlayer = 8f;
+        public float maxTimeToLosePlayer = 8f;
+        [HideInInspector]
+        public Vector3 lastKnownPlayerPos;
 
+        [Header("Search For Player Logic")]
+        public float maxSearchTimer = 10;
+
+        [Header("Path Logic")]
         public EnemyPath path;
 
         private EnemyStateMachine stateMachine;
@@ -39,13 +45,13 @@ namespace EnemyAI
 
         public bool CanSeePlayer()
         {
-            if (Player == null)
+            if (player == null)
                 return false;
 
             // if player is within range to see
-            if (Vector3.Distance(transform.position, Player.transform.position) <= sightDistance)
+            if (Vector3.Distance(transform.position, player.transform.position) <= sightDistance)
             {
-                Vector3 targetDirection = Player.transform.position - transform.position - (Vector3.up * eyeHeight);
+                Vector3 targetDirection = player.transform.position - transform.position - (Vector3.up * eyeHeight);
                 float angleToPlayer = Vector3.Angle(targetDirection, transform.forward);
                 // if player is within field of view of enemy
                 if (angleToPlayer >= -fieldOfView && angleToPlayer <= fieldOfView)
@@ -53,7 +59,7 @@ namespace EnemyAI
                     Ray ray = new Ray(transform.position + (Vector3.up * eyeHeight), targetDirection);
                     RaycastHit hitInfo = new();
                     // if player is not behind a wall
-                    if (Physics.Raycast(ray, out hitInfo, sightDistance) && hitInfo.transform.gameObject == Player)
+                    if (Physics.Raycast(ray, out hitInfo, sightDistance) && hitInfo.transform.gameObject == player)
                     {
                         Debug.DrawRay(ray.origin, ray.direction * sightDistance);
                         return true;

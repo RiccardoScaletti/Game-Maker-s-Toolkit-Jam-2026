@@ -37,7 +37,7 @@ namespace EnemyAI.StateMachine
             // start new state
             if (curState != null)
             {
-                curEnemy.currentState = curState.ToString();
+                curEnemy.currentState = curState.GetType().Name;
                 curState.stateMachine = this;
                 curState.enemy = curEnemy;
                 curState?.Enter();
@@ -45,10 +45,5 @@ namespace EnemyAI.StateMachine
             else
                 curEnemy.currentState = "NULL";
         }
-
-        // Patrol State
-        // Chase State
-        // Search State
     }
-
 }

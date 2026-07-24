@@ -19,21 +19,17 @@ namespace EnemyAI.StateMachine
             if (enemy.CanSeePlayer())
             {
                 losePlayerTimer = 0;
-                enemy.Agent.SetDestination(enemy.Player.transform.position);
+                enemy.Agent.SetDestination(enemy.player.transform.position);
+
+                enemy.lastKnownPlayerPos = enemy.player.transform.position;
             }
             else
             {
-                moveTimer += Time.deltaTime;
-                if (moveTimer > Random.Range(2, 5))
-                {
-                    enemy.Agent.SetDestination(enemy.transform.position + (Random.insideUnitSphere * 5));
-                    moveTimer = 0;
-                }
                 losePlayerTimer += Time.deltaTime;
-                if (losePlayerTimer >= enemy.timeToLosePlayer)
+                if (losePlayerTimer >= enemy.maxTimeToLosePlayer)
                 {
                     // change to search state
-                    stateMachine.ChangeState(new PatrolState());
+                    stateMachine.ChangeState(new SearchState());
                 }
 }
         }
