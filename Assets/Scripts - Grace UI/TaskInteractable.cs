@@ -11,7 +11,7 @@ public class TaskInteractable : MonoBehaviour
 {
     [Header("Prompt")]
     [SerializeField] private Sprite keycapSprite;
-    [SerializeField] private string keyLetter = "F";
+    [SerializeField] private string keyLetter = "E";
     [SerializeField] private string actionMessage = "Complete Task";
 
     [Header("Task")]
@@ -29,7 +29,7 @@ public class TaskInteractable : MonoBehaviour
         }
 
         if (Keyboard.current != null &&
-            Keyboard.current.fKey.wasPressedThisFrame)
+            Keyboard.current.eKey.wasPressedThisFrame)
         {
             CompleteTask();
         }
