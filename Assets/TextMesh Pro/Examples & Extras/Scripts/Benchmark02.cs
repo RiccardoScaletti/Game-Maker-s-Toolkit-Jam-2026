@@ -20,8 +20,6 @@ namespace TMPro.Examples
 
             for (int i = 0; i < NumberOfNPC; i++)
             {
-
-
                 if (SpawnType == 0)
                 {
                     // TextMesh Pro Implementation
@@ -88,8 +86,6 @@ namespace TMPro.Examples
                     floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
                     floatingText_Script.SpawnType = 0;
                 }
-
-
 
             }
         }
