@@ -1,0 +1,602 @@
+fileFormatVersion: 2
+guid: 066bdc5c312a26f44801384c6271298c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1622
+        width: 283
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add947301c4588c4f9b3707c4f3d3cba
+      internalID: 262021756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1622
+        width: 285
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b31dbe6e2a6024a886bdcf32d6590b
+      internalID: 1143085516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1622
+        width: 287
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1f0fa5005714545ac3176c8649c0ec
+      internalID: 1587245164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 1622
+        width: 288
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923a4531a2a769943b143d122ca70dd6
+      internalID: 303402306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1622
+        width: 292
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab8143f3fd625246a1ab87409e1249b
+      internalID: 1740766275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1217
+        width: 290
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375775b48d2fbe45804e3e64c37ae76
+      internalID: -643461421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 1217
+        width: 290
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e173ae744cfbd4428c3c893e93d8f1d
+      internalID: -1084786099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1217
+        width: 290
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffec4fe0e083d941bed60da364f1273
+      internalID: -1133531786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 1217
+        width: 289
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0c0c36a8331bb41b6972a43fe0ca8c
+      internalID: 1778632487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1217
+        width: 285
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda70091e047ad4b9d7387f115df58e
+      internalID: -1473603085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 811
+        width: 284
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0934b9a5a361846b6bff953996718d
+      internalID: 985925320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 811
+        width: 283
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644045ca4304e5242a4b28d8e43dc91c
+      internalID: -1973996066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 811
+        width: 285
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: becb95da1bebba449a6fcc96e18d53ea
+      internalID: 1071422141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 811
+        width: 285
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460e82846bccef046b092ac6cd2b04bc
+      internalID: -1894447680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 813
+        width: 287
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb1ffa0d0d911949a7cbb0cf9a6f307
+      internalID: 151739548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 407
+        width: 287
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b5a0c10a5ff1b47852d1ac3a86f6c1
+      internalID: -2008909257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 407
+        width: 287
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb061f96bd07504d836bfec68f204f6
+      internalID: 1163317124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 407
+        width: 284
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121c59708206d4f47b10ec6a59bc0bc4
+      internalID: -1421070485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 407
+        width: 285
+        height: 390
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe1e064b1b6c01489da7226094de58b
+      internalID: 1994014215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 407
+        width: 285
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faa7d3aaa5031646ae94265996daad2
+      internalID: 74194275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Walk_Sprite-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3
+        width: 286
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac5026c20f2df34a945627b98211b41
+      internalID: 60085690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5936ec27394122b42830b87071154166
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Supervisorc_Walk_Sprite-Sheet_0: 262021756
+      Supervisorc_Walk_Sprite-Sheet_1: 1143085516
+      Supervisorc_Walk_Sprite-Sheet_10: 985925320
+      Supervisorc_Walk_Sprite-Sheet_11: -1973996066
+      Supervisorc_Walk_Sprite-Sheet_12: 1071422141
+      Supervisorc_Walk_Sprite-Sheet_13: -1894447680
+      Supervisorc_Walk_Sprite-Sheet_14: 151739548
+      Supervisorc_Walk_Sprite-Sheet_15: -2008909257
+      Supervisorc_Walk_Sprite-Sheet_16: 1163317124
+      Supervisorc_Walk_Sprite-Sheet_17: -1421070485
+      Supervisorc_Walk_Sprite-Sheet_18: 1994014215
+      Supervisorc_Walk_Sprite-Sheet_19: 74194275
+      Supervisorc_Walk_Sprite-Sheet_2: 1587245164
+      Supervisorc_Walk_Sprite-Sheet_20: 60085690
+      Supervisorc_Walk_Sprite-Sheet_3: 303402306
+      Supervisorc_Walk_Sprite-Sheet_4: 1740766275
+      Supervisorc_Walk_Sprite-Sheet_5: -643461421
+      Supervisorc_Walk_Sprite-Sheet_6: -1084786099
+      Supervisorc_Walk_Sprite-Sheet_7: -1133531786
+      Supervisorc_Walk_Sprite-Sheet_8: 1778632487
+      Supervisorc_Walk_Sprite-Sheet_9: -1473603085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
