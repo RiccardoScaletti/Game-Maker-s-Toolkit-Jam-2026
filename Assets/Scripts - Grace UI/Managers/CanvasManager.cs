@@ -1,18 +1,27 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class CanvasManager : MonoBehaviour
 {
     [SerializeField] private GameObject startingCanvas;
+    [SerializeField] private GameObject pauseMenu;
 
     private readonly Stack<GameObject> canvasHistory = new();
     private GameObject currentCanvas;
+    private bool isPaused;
 
     private void Start()
     {
         currentCanvas = startingCanvas;
         currentCanvas.SetActive(true);
+        pauseMenu.SetActive(false);
+    }
+
+    private void Update()
+    {
+        PauseGame();
     }
 
     public void OpenCanvas(GameObject newCanvas)
@@ -38,9 +47,34 @@ public class CanvasManager : MonoBehaviour
         currentCanvas.SetActive(true);
     }
 
+    public void PauseGame()
+    {
+        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            if (SceneManager.GetActiveScene().name == "Title Scene")
+            {
+                return;
+            }
+            else if (!isPaused)
+            {
+                Time.timeScale = 0f;
+                isPaused = true;
+                currentCanvas.SetActive(false);
+                pauseMenu.SetActive(true);
+            }
+            else
+            {
+                Time.timeScale = 1f;
+                isPaused = false;
+                currentCanvas.SetActive(true);
+                pauseMenu.SetActive(false);
+            }
+        }
+    }
+
     public void LoadGame()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("Title Scene");
     }
 
     public void QuitGame()
