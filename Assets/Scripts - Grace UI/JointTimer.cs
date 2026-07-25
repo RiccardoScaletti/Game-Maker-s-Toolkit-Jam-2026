@@ -4,18 +4,27 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+
+public enum TaskType { Easy, Medium, Hard }
+
 /// <summary>
 /// Timer: Controls the joint timer, visuals, and multiplyers for different level tasks - hard, medium, easy
 /// </summary>
 
 public class JointTimer : MonoBehaviour
 {
+    public event Action TimerFinished;
+
     [Header("Timer")]
     [SerializeField, Min(1f)]
     private float startingDuration = 600f;
 
-    [SerializeField, Min(0f)]
-    private float burnSpeedMultiplier = 1f;
+    [SerializeField]
+    [Tooltip("How fast the multiplier decreases over time. Note: negative numbers will increase burn speed")]
+    private float multiplierDecreaseSpeed = 0;
+
+    [SerializeField]
+    private float maxMultiplier = 10;
 
     [SerializeField]
     private bool beginAutomatically = true;
@@ -48,38 +57,62 @@ public class JointTimer : MonoBehaviour
     [SerializeField] private Image emberImage;
     [SerializeField] private Gradient emberGradient;
 
-    [Header("Testing")]
-    [SerializeField] private bool enableTestKey = true;
-
     [SerializeField]
     private GameObject smokeEffect;
 
-    private float remainingTime;
     private float originalJointWidth;
     private bool isRunning;
     private bool hasFinished;
 
-    public float RemainingTime => remainingTime;
-    public float BurnSpeedMultiplier => burnSpeedMultiplier;
-    public bool IsRunning => isRunning;
+    public float RemainingTime { get; private set; }
 
-    public event Action TimerFinished;
+    private float burnSpeedMultiplier;
+    public float BurnSpeedMultiplier { 
+        get { return burnSpeedMultiplier; } 
+        set {
+            burnSpeedMultiplier = Mathf.Clamp(value, 0, maxMultiplier); 
+        }
+    }
+    public bool IsRunning
+    {
+        get { return isRunning; }
+        set
+        {
+            isRunning = value;
 
-    [Header("Burn Multiplier")]
-    [SerializeField] private float burnMultiplier = 1f;
-    [SerializeField] private float multiplierIncrease = 0.25f;
-    [SerializeField] private float maxMultiplier = 3f;
+            UpdateVisuals();
+            UpdateEmberColor();
 
+            if (smokeEffect)
+                smokeEffect.SetActive(isRunning);
+            if (!isRunning)
+                enabled = false;
+        }
+    }
 
+    public bool HasFinished
+    {
+        get { return hasFinished; }
+        set
+        {
+            hasFinished = value;
+
+            UpdateVisuals();
+            UpdateEmberColor();
+
+            if (hasFinished)
+                enabled = false;
+        }
+    }
 
     private void Awake()
     {
-        remainingTime = startingDuration;
+        RemainingTime = startingDuration;
 
         if (jointBody != null)
-        {
             originalJointWidth = jointBody.sizeDelta.x;
-        }
+
+        BurnSpeedMultiplier = 0;
 
         UpdateVisuals();
     }
@@ -87,47 +120,19 @@ public class JointTimer : MonoBehaviour
     private void Start()
     {
         if (beginAutomatically)
-        {
             StartTimer();
-        }
     }
 
     private void Update()
     {
-        if (!isRunning || hasFinished)
-        {
-            return;
-        }
+        float frameTime = continueWhileGamePaused ? Time.unscaledDeltaTime : Time.deltaTime;
 
-        float frameTime = continueWhileGamePaused
-            ? Time.unscaledDeltaTime
-            : Time.deltaTime;
-
-        remainingTime -= frameTime * burnSpeedMultiplier;
-        remainingTime = Mathf.Max(remainingTime, 0f);
+        RemainingTime -= frameTime * BurnSpeedMultiplier;
+        BurnSpeedMultiplier -= frameTime * multiplierDecreaseSpeed;
 
         UpdateVisuals();
 
-        if (remainingTime <= 0f)
-        {
-            FinishTimer();
-        }
-
-        remainingTime -= Time.deltaTime * burnMultiplier;
-
-        if (enableTestKey &&
-    Keyboard.current != null &&
-    Keyboard.current.tKey.wasPressedThisFrame)
-        {
-            TaskCompleted();
-        }
-
-        remainingTime -= Time.deltaTime * burnMultiplier;
-        remainingTime = Mathf.Max(remainingTime, 0f);
-
-        UpdateVisuals();
-
-        if (remainingTime <= 0f)
+        if (RemainingTime <= 0f)
         {
             FinishTimer();
         }
@@ -135,63 +140,30 @@ public class JointTimer : MonoBehaviour
 
     public void StartTimer()
     {
-        if (hasFinished)
-        {
-            return;
-        }
-
-        isRunning = true;
-
-        if (smokeEffect != null)
-        {
-            smokeEffect.SetActive(true);
-        }
-    }
-
-    public void PauseTimer()
-    {
-        isRunning = false;
-
-        if (smokeEffect != null)
-        {
-            smokeEffect.SetActive(false);
-        }
+        IsRunning = true;
     }
 
     public void ResetTimer()
     {
-        remainingTime = startingDuration;
-        burnMultiplier = 1f;
-        hasFinished = false;
-        isRunning = false;
-
-        UpdateVisuals();
-        UpdateEmberColor();
+        RemainingTime = startingDuration;
+        BurnSpeedMultiplier = 0;
+        //emberValue = 1f;
+        HasFinished = false;
+        IsRunning = false;
     }
 
     public void SetBurnMultiplier(float newMultiplier)
     {
-        burnSpeedMultiplier = Mathf.Max(0f, newMultiplier);
+        BurnSpeedMultiplier = newMultiplier;
     }
-
-    public void MultiplyBurnSpeed(float multiplierAmount)
-    {
-        if (multiplierAmount <= 0f)
-        {
-            Debug.LogWarning("Burn multiplier must be greater than zero.");
-            return;
-        }
-
-        burnSpeedMultiplier *= multiplierAmount;
-    }
-
     private void UpdateVisuals()
     {
-        float remainingPercent = remainingTime / startingDuration;
+        float remainingPercent = RemainingTime / startingDuration;
         remainingPercent = Mathf.Clamp01(remainingPercent);
 
         UpdateJointLength(remainingPercent);
         UpdateEmberPosition(remainingPercent);
+        UpdateEmberColor();
         UpdateTimerText();
     }
 
@@ -230,7 +202,7 @@ public class JointTimer : MonoBehaviour
             return;
         }
 
-        int totalSeconds = Mathf.CeilToInt(remainingTime);
+        int totalSeconds = Mathf.CeilToInt(RemainingTime);
         int minutes = totalSeconds / 60;
         int seconds = totalSeconds % 60;
 
@@ -239,43 +211,13 @@ public class JointTimer : MonoBehaviour
 
     private void FinishTimer()
     {
-        remainingTime = 0f;
-        isRunning = false;
-        hasFinished = true;
-
-        if (smokeEffect != null)
-        {
-            smokeEffect.SetActive(false);
-        }
-
-        UpdateVisuals();
+        RemainingTime = 0f;
+        IsRunning = false;
+        HasFinished = true;
 
         TimerFinished?.Invoke();
 
         Debug.Log("Joint timer finished.");
-    }
-
-    public enum TaskType
-    {
-        Easy,
-        Medium,
-        Hard
-    }
-
-    public void TaskCompleted()
-    {
-        burnMultiplier += multiplierIncrease;
-        burnMultiplier = Mathf.Clamp(
-            burnMultiplier,
-            1f,
-            maxMultiplier
-        );
-
-        UpdateEmberColor();
-
-        Debug.Log(
-            $"Task completed! Burn multiplier: {burnMultiplier:0.00}x"
-        );
     }
 
     private void UpdateEmberColor()
@@ -283,7 +225,7 @@ public class JointTimer : MonoBehaviour
         if (emberImage == null)
             return;
 
-        float t = Mathf.InverseLerp(1f, maxMultiplier, burnMultiplier);
+        float t = Mathf.InverseLerp(0f, maxMultiplier, BurnSpeedMultiplier);
 
         emberImage.color = emberGradient.Evaluate(t);
     }
