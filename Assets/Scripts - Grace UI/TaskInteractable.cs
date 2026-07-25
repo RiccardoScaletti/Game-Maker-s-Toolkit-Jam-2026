@@ -29,12 +29,7 @@ public class TaskInteractable : MonoBehaviour
 
     private void Update()
     {
-        if (!playerInRange || taskCompleted)
-        {
-            return;
-        }
 
-        InteractWithObject();
     }
 
     private void OnTriggerEnter(Collider other)
