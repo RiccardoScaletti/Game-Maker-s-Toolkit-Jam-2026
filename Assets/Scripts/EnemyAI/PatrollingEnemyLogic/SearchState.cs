@@ -20,6 +20,8 @@ namespace EnemyAI.StateMachine
             if (enemy.CanSeePlayer())
                 stateMachine.ChangeState(new AttackState());
 
+            enemy.Agent.speed = enemy.defaultSpeed;
+
             // if enemy is within stopping distance, start searching
             if (enemy.Agent.remainingDistance < enemy.Agent.stoppingDistance)
             {
