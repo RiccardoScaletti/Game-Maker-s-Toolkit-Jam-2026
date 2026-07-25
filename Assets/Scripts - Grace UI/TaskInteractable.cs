@@ -104,6 +104,7 @@ public class TaskInteractable : MonoBehaviour
         {
             InteractionUI.Instance.HidePrompt();
         }
+        Destroy(gameObject);
     }
 
     private void OnDisable()
