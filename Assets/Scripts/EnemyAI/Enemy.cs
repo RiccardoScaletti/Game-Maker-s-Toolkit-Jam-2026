@@ -1,22 +1,29 @@
 using EnemyAI.StateMachine;
+using System;
 using UnityEngine;
 using UnityEngine.AI;
+using static UnityEngine.EventSystems.EventTrigger;
 
 namespace EnemyAI
 {
-    public enum eEnemyType { Minion, Supervisor, Customer }
+    public enum eEnemyType { Enemy, Customer }
     /// <summary>
     /// Generic class for enemy logic
     /// </summary>
     [RequireComponent(typeof(EnemyStateMachine), typeof(NavMeshAgent))]
     public class Enemy : MonoBehaviour
     {
+        public static event Action OnSnitchOnPlayer;
+
         public string debugCurState;
         public NavMeshAgent Agent { get; private set; }
         public eEnemyType enemyType;
 
+        [Header("Movement")]
+        public float defaultSpeed = 3.5f;
+        public float chaseSpeed = 10;
+
         [Header("See Player Logic")]
-        public GameObject player;
         public float sightDistance = 20;
         public float fieldOfView = 40f;
         public float eyeHeight;
@@ -36,7 +43,17 @@ namespace EnemyAI
         public Animator anim;
         public float curVelocity;
 
-        private EnemyStateMachine stateMachine;
+        protected EnemyStateMachine stateMachine;
+
+        private void OnEnable()
+        {
+            Enemy_Supervisor.onPlayerCaptured += PlayerGotCaptured;
+        }
+
+        private void OnDisable()
+        {
+            Enemy_Supervisor.onPlayerCaptured -= PlayerGotCaptured;
+        }
 
         private void Awake()
         {
@@ -53,10 +70,6 @@ namespace EnemyAI
             {
                 Debug.LogError($"No animator found on Enemy: {name}");
             }            
-        }
-        private void Start()
-        {
-            player = PlayerManager.Instance.gameObject;
         }
 
         private void Update()
@@ -78,13 +91,13 @@ namespace EnemyAI
 
         public bool CanSeePlayer()
         {
-            if (player == null)
+            if (PlayerManager.Instance == null)
                 return false;
 
             // if player is within range to see
-            if (Vector3.Distance(transform.position, player.transform.position) <= sightDistance)
+            if (Vector3.Distance(transform.position, PlayerManager.Instance.transform.position) <= sightDistance)
             {
-                Vector3 targetDirection = player.transform.position - transform.position - (Vector3.up * eyeHeight);
+                Vector3 targetDirection = PlayerManager.Instance.transform.position - transform.position - (Vector3.up * eyeHeight);
                 float angleToPlayer = Vector3.Angle(targetDirection, transform.forward);
                 // if player is within field of view of enemy
                 if (angleToPlayer >= -fieldOfView && angleToPlayer <= fieldOfView)
@@ -92,7 +105,7 @@ namespace EnemyAI
                     Ray ray = new Ray(transform.position + (Vector3.up * eyeHeight), targetDirection);
                     RaycastHit hitInfo = new();
                     // if player is not behind a wall
-                    if (Physics.Raycast(ray, out hitInfo, sightDistance) && hitInfo.transform.gameObject == player)
+                    if (Physics.Raycast(ray, out hitInfo, sightDistance) && hitInfo.transform.gameObject.CompareTag("Player"))
                     {
                         if (showRay)
                             Debug.DrawRay(ray.origin, ray.direction * sightDistance);
@@ -104,6 +117,30 @@ namespace EnemyAI
             return false;
         }
 
+        public void SnitchOnPlayer()
+        {
+            // if supervisor already has player
+            if (stateMachine.CurState is CapturePlayerState)
+                return;
+            // ignore snitches if patrolling office
+            if (stateMachine.CurState is PatrolOfficeState)
+                return;
+
+            if (this is not Enemy_Supervisor && enemyType == eEnemyType.Enemy)
+                OnSnitchOnPlayer?.Invoke();
+        }
+
+        private void PlayerGotCaptured()
+        {
+            // if supervisor already has player
+            if (stateMachine.CurState is CapturePlayerState)
+                return;
+            // ignore snitches if patrolling office
+            if (stateMachine.CurState is PatrolOfficeState)
+                return;
+
+            stateMachine.ChangeState(new PatrolState());
+        }
     }
 }
 

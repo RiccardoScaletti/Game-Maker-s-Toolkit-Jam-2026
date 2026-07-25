@@ -2,58 +2,30 @@ using UnityEngine;
 
 public class Interactable : MonoBehaviour
 {
-    private GameObject player;
-    public float distance = 3f;
     public float timeSpent = 0f;
-    private bool canInteract = false;
-    public bool interactedWith = false;
     public Renderer interactableHighlight;
-    private bool blockInteraction = false;
-
-    private void Awake()
-    {
-        player = GameObject.FindGameObjectWithTag("Player");
-    }
 
     public void Update()
     {
-        CheckPlayerDistance();
-        Interact();
         HighlightInteractable();
     }
-
-    private void CheckPlayerDistance()
-    {
-        float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
-
-        if (!blockInteraction && distanceToPlayer <= distance)
-            canInteract = distanceToPlayer <= distance;
-        else if (distanceToPlayer >= distance)
-            canInteract = false;
-    }
-
     public void Interact()
     {
-        if (canInteract)
+        if (PlayerManager.Instance.interactable = this)
         {
-            if (interactedWith)
+            Debug.Log($"Interact with: {name}");
+            if (TryGetComponent<Renderer>(out Renderer renderer))
             {
-                Renderer renderer = GetComponent<Renderer>();
-                if (renderer != null)
-                {
-                    renderer.material.color = Color.blue;
-                    interactedWith = false;
-                    blockInteraction = true;
-                }
+                renderer.material.color = Color.blue;
             }
         }
     }
 
     private void HighlightInteractable()
     {
-        if (canInteract)
+        if (PlayerManager.Instance.interactable == this)
             interactableHighlight.enabled = true;
-        else if (!canInteract)
+        else
             interactableHighlight.enabled = false;
     }
 }
