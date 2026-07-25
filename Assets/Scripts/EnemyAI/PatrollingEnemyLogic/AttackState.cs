@@ -4,7 +4,6 @@ namespace EnemyAI.StateMachine
 {
     public class AttackState : BaseState
     {
-        private float moveTimer;
         private float losePlayerTimer;
         public override void Enter()
         {
@@ -20,8 +19,10 @@ namespace EnemyAI.StateMachine
             {
                 losePlayerTimer = 0;
                 enemy.Agent.SetDestination(enemy.player.transform.position);
+                //enemy.transform.LookAt(enemy.player.transform);
 
                 enemy.lastKnownPlayerPos = enemy.player.transform.position;
+                enemy.Agent.speed = 6;
             }
             else
             {
