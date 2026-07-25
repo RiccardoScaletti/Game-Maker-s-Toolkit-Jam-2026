@@ -174,9 +174,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33831ffeb845ebe43b5cde4a2f2c080f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
+  rb: {fileID: 0}
   interactableCheckRadius: 3
   moveSpeed: 10
   maxForce: 1
+  interactable: {fileID: 0}
 --- !u!54 &7637060473862050294
 Rigidbody:
   m_ObjectHideFlags: 0
