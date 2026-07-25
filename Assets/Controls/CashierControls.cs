@@ -155,7 +155,7 @@ public partial class @CashierControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""131db9af-4cfa-4c0b-82bc-4add63bde3b9"",
-                    ""path"": ""<Keyboard>/f"",
+                    ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
