@@ -46,7 +46,8 @@ public class PlayerManager : MonoBehaviour
             isCaptured = value;
             if (isCaptured)
             {
-                interactable = null;
+                //interactable = null;
+                taskInteractable = null;
                 InputSystem.actions.Disable();
             }
             else
@@ -57,7 +58,8 @@ public class PlayerManager : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    public Interactable interactable;
+    //public Interactable interactable;
+    public TaskInteractable taskInteractable;
 
     void Awake()
     {
@@ -112,7 +114,7 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        InteractCheck();
+        //InteractCheck();
         SpriteControl();
     }
 
@@ -121,27 +123,35 @@ public class PlayerManager : MonoBehaviour
         moveVector = context.ReadValue<Vector2>();
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        other.TryGetComponent<TaskInteractable>(out taskInteractable);
+    }
+
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (interactable != null)
-            interactable.Interact();
+        //if (interactable != null)
+        //    interactable.Interact();
+
+        if (taskInteractable != null)
+            taskInteractable.InteractWithObject();
     }
 
     // Checks for nearby interactables and when interact is pressed it grabs their Interactable component and calls the Interact() method on it
-    private void InteractCheck()
-    {
-        if (isCaptured)
-            return;
-
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, interactableCheckRadius);
-        foreach (var hitCollider in hitColliders)
-        {
-            if (hitCollider.TryGetComponent<Interactable>(out interactable))
-            {
-                break; // Interact with the first interactable found
-            }
-        }
-    }
+    //private void InteractCheck()
+    //{
+    //    if (isCaptured)
+    //        return;
+    //
+    //    Collider[] hitColliders = Physics.OverlapSphere(transform.position, interactableCheckRadius);
+    //    foreach (var hitCollider in hitColliders)
+    //    {
+    //        if (hitCollider.TryGetComponent<Interactable>(out interactable))
+    //        {
+    //            break; // Interact with the first interactable found
+    //        }
+    //    }
+    //}
 
     private void SpriteControl()
     {
@@ -178,6 +188,5 @@ public class PlayerManager : MonoBehaviour
         rb.useGravity = true;
 
         transform.parent = null;
-    }
-
+    }  
 }
