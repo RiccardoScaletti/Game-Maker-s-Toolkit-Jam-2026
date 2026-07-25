@@ -79,8 +79,6 @@ public class PlayerManager : MonoBehaviour
         InputSystem.actions.Enable();
         InputSystem.actions.FindAction("Move").performed += OnMovePlayer;
         InputSystem.actions.FindAction("Move").canceled += context => moveVector = Vector3.zero;
-        InputSystem.actions.FindAction("TurnLeft").performed += OnRotatePlayerLeft;
-        InputSystem.actions.FindAction("TurnRight").performed += OnRotatePlayerRight;
         InputSystem.actions.FindAction("Interact").started += OnInteract;
     }
 
@@ -89,8 +87,6 @@ public class PlayerManager : MonoBehaviour
         InputSystem.actions.Disable();
         InputSystem.actions.FindAction("Move").performed -= OnMovePlayer;
         InputSystem.actions.FindAction("Move").canceled -= context => moveVector = Vector3.zero;
-        InputSystem.actions.FindAction("TurnLeft").performed -= OnRotatePlayerLeft;
-        InputSystem.actions.FindAction("TurnRight").performed -= OnRotatePlayerRight;
         InputSystem.actions.FindAction("Interact").started -= OnInteract;
     }
 
@@ -123,16 +119,6 @@ public class PlayerManager : MonoBehaviour
     public void OnMovePlayer(InputAction.CallbackContext context)
     {
         moveVector = context.ReadValue<Vector2>();
-    }
-
-    public void OnRotatePlayerLeft(InputAction.CallbackContext context)
-    {
-        transform.Rotate(0, -90, 0);
-    }
-
-    public void OnRotatePlayerRight(InputAction.CallbackContext context)
-    {
-        transform.Rotate(0, 90, 0);
     }
 
     public void OnInteract(InputAction.CallbackContext context)
@@ -177,6 +163,7 @@ public class PlayerManager : MonoBehaviour
         rb.Sleep();
 
         rb.detectCollisions = false;
+        rb.useGravity = false;
 
         transform.SetParent(capturePoint.transform);
         transform.SetPositionAndRotation(capturePoint.transform.position, Quaternion.identity);
@@ -188,6 +175,7 @@ public class PlayerManager : MonoBehaviour
         rb.WakeUp();
 
         rb.detectCollisions = true;
+        rb.useGravity = true;
 
         transform.parent = null;
     }
