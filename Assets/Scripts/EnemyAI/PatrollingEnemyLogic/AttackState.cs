@@ -1,13 +1,16 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace EnemyAI.StateMachine
 {
     public class AttackState : BaseState
     {
-        private float moveTimer;
+
         private float losePlayerTimer;
         public override void Enter()
         {
+            enemy.Agent.speed = enemy.chaseSpeed;
         }
 
         public override void Exit()
@@ -19,9 +22,11 @@ namespace EnemyAI.StateMachine
             if (enemy.CanSeePlayer())
             {
                 losePlayerTimer = 0;
-                enemy.Agent.SetDestination(enemy.player.transform.position);
+                enemy.Agent.SetDestination(PlayerManager.Instance.transform.position);
+                //enemy.transform.LookAt(enemy.player.transform);
 
-                enemy.lastKnownPlayerPos = enemy.player.transform.position;
+                enemy.lastKnownPlayerPos = PlayerManager.Instance.transform.position;
+                enemy.SnitchOnPlayer();
             }
             else
             {
