@@ -12,13 +12,13 @@ public class Interactable : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = PlayerManager.Instance.gameObject;
     }
 
     public void Update()
     {
         CheckPlayerDistance();
-        Interact();
+        //Interact();
         HighlightInteractable();
     }
 
@@ -28,7 +28,7 @@ public class Interactable : MonoBehaviour
 
         if (!blockInteraction && distanceToPlayer <= distance)
             canInteract = distanceToPlayer <= distance;
-        else if (distanceToPlayer >= distance)
+        else if (distanceToPlayer >= distance && !canInteract)
             canInteract = false;
     }
 
@@ -36,15 +36,12 @@ public class Interactable : MonoBehaviour
     {
         if (canInteract)
         {
-            if (interactedWith)
+            Renderer renderer = GetComponent<Renderer>();
+            if (renderer != null)
             {
-                Renderer renderer = GetComponent<Renderer>();
-                if (renderer != null)
-                {
-                    renderer.material.color = Color.blue;
-                    interactedWith = false;
-                    blockInteraction = true;
-                }
+                renderer.material.color = Color.blue;
+                interactedWith = false;
+                blockInteraction = true;
             }
         }
     }

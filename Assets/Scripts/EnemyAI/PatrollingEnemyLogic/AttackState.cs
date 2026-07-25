@@ -19,7 +19,7 @@ namespace EnemyAI.StateMachine
             {
                 losePlayerTimer = 0;
                 enemy.Agent.SetDestination(enemy.player.transform.position);
-                enemy.transform.LookAt(enemy.player.transform);
+                //enemy.transform.LookAt(enemy.player.transform);
 
                 enemy.lastKnownPlayerPos = enemy.player.transform.position;
                 enemy.Agent.speed = 6;

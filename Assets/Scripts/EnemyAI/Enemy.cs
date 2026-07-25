@@ -36,7 +36,7 @@ namespace EnemyAI
         public Animator anim;
         public float curVelocity;
 
-        private EnemyStateMachine stateMachine;
+        protected EnemyStateMachine stateMachine;
 
         private void Awake()
         {
@@ -103,6 +103,15 @@ namespace EnemyAI
 
             return false;
         }
+
+
+        //private void OnTriggerEnter(Collider other)
+        //{
+        //    if (this is Enemy_Supervisor)
+        //        Debug.Log("Hit supervisor");
+        //    else
+        //        Debug.Log("hit something else");
+        //}
 
     }
 }
