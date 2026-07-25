@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -216,6 +217,7 @@ public class JointTimer : MonoBehaviour
         HasFinished = true;
 
         TimerFinished?.Invoke();
+        SceneManager.LoadScene("");
 
         Debug.Log("Joint timer finished.");
     }
