@@ -5,7 +5,7 @@ namespace EnemyAI.StateMachine
     public class EnemyStateMachine : MonoBehaviour
     {
         Enemy curEnemy;
-        BaseState curState;
+        public BaseState CurState { get; private set; }
 
         public void InitializeStateMachine()
         {
@@ -13,7 +13,7 @@ namespace EnemyAI.StateMachine
 
             switch (curEnemy.enemyType)
             {
-                case eEnemyType.Minion:
+                case eEnemyType.Enemy:
                     ChangeState(new PatrolState());
                     break;
                 default:
@@ -25,22 +25,22 @@ namespace EnemyAI.StateMachine
         private void Update()
         {
             // perform current state
-            curState?.Perform();
+            CurState?.Perform();
         }
         public void ChangeState(BaseState newState)
         {
             // finish previous state
-            curState?.Exit();
+            CurState?.Exit();
 
-            curState = newState;
+            CurState = newState;
 
             // start new state
-            if (curState != null)
+            if (CurState != null)
             {
-                curEnemy.debugCurState = curState.GetType().Name;
-                curState.stateMachine = this;
-                curState.enemy = curEnemy;
-                curState?.Enter();
+                curEnemy.debugCurState = CurState.GetType().Name;
+                CurState.stateMachine = this;
+                CurState.enemy = curEnemy;
+                CurState?.Enter();
             }
             else
                 curEnemy.debugCurState = "NULL";

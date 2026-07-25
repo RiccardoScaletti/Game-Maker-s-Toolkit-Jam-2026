@@ -5,7 +5,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance { get; private set; }
 
-    private Rigidbody rb;
+    public Rigidbody rb;
 
     public float interactableCheckRadius = 3f;
 
@@ -37,10 +37,27 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+    private bool isCaptured;
+    public bool IsCaptured
+    {
+        get { return isCaptured; }
+        set
+        {
+            isCaptured = value;
+            if (isCaptured)
+            {
+                interactable = null;
+                InputSystem.actions.Disable();
+            }
+            else
+                InputSystem.actions.Enable();
+        }
+    }
+
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
-    Interactable interactable;
+    public Interactable interactable;
 
     void Awake()
     {
@@ -121,16 +138,15 @@ public class PlayerManager : MonoBehaviour
     public void OnInteract(InputAction.CallbackContext context)
     {
         if (interactable != null)
-        {
-            //Debug.Log("Interacted with:");
-            interactable.interactedWith = true;
             interactable.Interact();
-        }
     }
 
     // Checks for nearby interactables and when interact is pressed it grabs their Interactable component and calls the Interact() method on it
     private void InteractCheck()
     {
+        if (isCaptured)
+            return;
+
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, interactableCheckRadius);
         foreach (var hitCollider in hitColliders)
         {
@@ -143,8 +159,7 @@ public class PlayerManager : MonoBehaviour
 
     private void SpriteControl()
     {
-        bool isMoving = rb.linearVelocity.magnitude > 0;
-        animator.SetBool("isWalking", isMoving);
+        animator.SetBool("isWalking", rb.linearVelocity.magnitude > 0);
 
         if (moveVector.x > 0)
         {
@@ -154,6 +169,27 @@ public class PlayerManager : MonoBehaviour
         {
             spriteRenderer.flipX = true;
         }
+    }
+
+    public void CapturePlayer(GameObject capturePoint)
+    {
+        IsCaptured = true;
+        rb.Sleep();
+
+        rb.detectCollisions = false;
+
+        transform.SetParent(capturePoint.transform);
+        transform.SetPositionAndRotation(capturePoint.transform.position, Quaternion.identity);
+    }
+
+    public void ReleasePlayerFromCapture()
+    {
+        IsCaptured = false;
+        rb.WakeUp();
+
+        rb.detectCollisions = true;
+
+        transform.parent = null;
     }
 
 }
