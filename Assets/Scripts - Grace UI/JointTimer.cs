@@ -217,7 +217,7 @@ public class JointTimer : MonoBehaviour
         HasFinished = true;
 
         TimerFinished?.Invoke();
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("WinScene");
 
         Debug.Log("Joint timer finished.");
     }
