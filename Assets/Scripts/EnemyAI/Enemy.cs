@@ -45,6 +45,16 @@ namespace EnemyAI
 
         protected EnemyStateMachine stateMachine;
 
+        private void OnEnable()
+        {
+            Enemy_Supervisor.onPlayerCaptured += PlayerGotCaptured;
+        }
+
+        private void OnDisable()
+        {
+            Enemy_Supervisor.onPlayerCaptured -= PlayerGotCaptured;
+        }
+
         private void Awake()
         {
             Agent = GetComponent<NavMeshAgent>();
@@ -118,6 +128,18 @@ namespace EnemyAI
 
             if (this is not Enemy_Supervisor && enemyType == eEnemyType.Enemy)
                 OnSnitchOnPlayer?.Invoke();
+        }
+
+        private void PlayerGotCaptured()
+        {
+            // if supervisor already has player
+            if (stateMachine.CurState is CapturePlayerState)
+                return;
+            // ignore snitches if patrolling office
+            if (stateMachine.CurState is PatrolOfficeState)
+                return;
+
+            stateMachine.ChangeState(new PatrolState());
         }
     }
 }
