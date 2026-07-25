@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 93dcd78424e786e40b92d57a9e2f2698
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3245
+        width: 283
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13dd6f0a91771994293f76b28bb4e1f7
+      internalID: 917115894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 3245
+        width: 285
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d877daf6ebfe438e8e452137af9a4
+      internalID: 1014687238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 3245
+        width: 287
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5446bb8eedbafe41abfbdcfbbb925c8
+      internalID: 2086462596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 3245
+        width: 287
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24155db6796e7242886336ef911a67d
+      internalID: -1955360152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 3245
+        width: 286
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea11de3eaa4a049be546bcae78eb11
+      internalID: -681638081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2841
+        width: 287
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa5c33dcf605164b84fb37bdc96d2d3
+      internalID: 1604740429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2841
+        width: 289
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e94a52a0910af4aae7d98cd3a2d584
+      internalID: -296631835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2841
+        width: 289
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdd548df995d514eb82e74c71412005
+      internalID: 238698130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 2841
+        width: 288
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd5d978a6c654649a423a211230d777
+      internalID: 2136059550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2841
+        width: 290
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82964d3454cf85c42bcf4b0ce175c156
+      internalID: 1674335873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2436
+        width: 288
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9aaa33179e58a42a65f550b5dd0cc8
+      internalID: 1598462524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2436
+        width: 289
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07ad93a4da8fc040a090e896794e350
+      internalID: -1178298427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2436
+        width: 289
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9f7cb68c20ffa448c65331b38bde04
+      internalID: 2119222857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 2436
+        width: 288
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d80d973955d9374b90a33b07e717816
+      internalID: -174140230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2436
+        width: 290
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a0413cf86372419517a209503892c
+      internalID: -1215336145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2031
+        width: 287
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb473b30fc99094094ddcfcf759392e
+      internalID: -572824590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 2031
+        width: 287
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6ee6caee92d314cb7aedcb3cf12d89
+      internalID: 1582381149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2031
+        width: 287
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e757a01300ab559429e4dd8c74872b08
+      internalID: 678792651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 2031
+        width: 285
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16436fc1c6a09fd43baf1da8332f6b9e
+      internalID: -487973611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 2031
+        width: 284
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f4d8699de3a9e4b9b811e4f72237d7
+      internalID: 469548613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1626
+        width: 284
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bea8c93460a2349be6bb5a9a9fd3d3
+      internalID: -107335512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1626
+        width: 285
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425b32ef5acc81f4f8c04f9a0e841410
+      internalID: 26779626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1626
+        width: 283
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fdf91aa7407424199fdde47118e793
+      internalID: -971356381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 1624
+        width: 281
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbb7651cb68a324faf4b6b81d623dda
+      internalID: 1672144594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 1624
+        width: 281
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d443dbdf075a46e4ca6b3ea4b64c8ecc
+      internalID: 1922568382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1220
+        width: 281
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9157b8adc8a8f8f4c9a506e75cf0de28
+      internalID: 299530704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1220
+        width: 281
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fffaac719e05e4099a4b934d91c412
+      internalID: 1064729598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1220
+        width: 279
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c142bd8ed267894ca1a06e7b180a7eb
+      internalID: 406166705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1220
+        width: 280
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c5921bf4e09d146b58a7b7e97acf21
+      internalID: -1552466639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 1220
+        width: 280
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d04f3df3201e418b1e4999069ef8e
+      internalID: -1280142951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 814
+        width: 278
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe883c2362dd30542b68c348b5563ed9
+      internalID: 2035138188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 814
+        width: 279
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671118fba812bad4d91a6c09d4ab17b1
+      internalID: 1090002408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 814
+        width: 279
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef14b0f9eeacad4e84ec33fce5a23b3
+      internalID: -1549592395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 814
+        width: 278
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1889a026b16524081ab5a39138b738
+      internalID: 1047001988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 814
+        width: 280
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563afd2b7df35b14c9bf270adbbc9c92
+      internalID: 76420935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 410
+        width: 278
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdce073196628048931ac932cd9468e
+      internalID: -1923447230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 410
+        width: 279
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1defea52f784d854c97f72193cd11aa7
+      internalID: -1231760915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 410
+        width: 279
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b041aeb0afa9c294f9c3d6abaafe3d07
+      internalID: 475474748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 410
+        width: 280
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b11b68877aba54d92cc036a80694b7
+      internalID: 33931641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3097
+        y: 410
+        width: 280
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe649a513b773ae4e9353c5549379120
+      internalID: 1774902114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 4
+        width: 281
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf760a5dab368f4c83522e3968c0a46
+      internalID: -1110620453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 4
+        width: 281
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972e02f4eafe6e248be887e62a376862
+      internalID: -1061808279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Back_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 4
+        width: 282
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16caded9e6dac524195001d48d46df6a
+      internalID: 176519526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4a240f4d88b5fb40baab5bb0055abda
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Supervisorc_Back_Idle_0: 917115894
+      Supervisorc_Back_Idle_1: 1014687238
+      Supervisorc_Back_Idle_10: 1598462524
+      Supervisorc_Back_Idle_11: -1178298427
+      Supervisorc_Back_Idle_12: 2119222857
+      Supervisorc_Back_Idle_13: -174140230
+      Supervisorc_Back_Idle_14: -1215336145
+      Supervisorc_Back_Idle_15: -572824590
+      Supervisorc_Back_Idle_16: 1582381149
+      Supervisorc_Back_Idle_17: 678792651
+      Supervisorc_Back_Idle_18: -487973611
+      Supervisorc_Back_Idle_19: 469548613
+      Supervisorc_Back_Idle_2: 2086462596
+      Supervisorc_Back_Idle_20: -107335512
+      Supervisorc_Back_Idle_21: 26779626
+      Supervisorc_Back_Idle_22: -971356381
+      Supervisorc_Back_Idle_23: 1672144594
+      Supervisorc_Back_Idle_24: 1922568382
+      Supervisorc_Back_Idle_25: 299530704
+      Supervisorc_Back_Idle_26: 1064729598
+      Supervisorc_Back_Idle_27: 406166705
+      Supervisorc_Back_Idle_28: -1552466639
+      Supervisorc_Back_Idle_29: -1280142951
+      Supervisorc_Back_Idle_3: -1955360152
+      Supervisorc_Back_Idle_30: 2035138188
+      Supervisorc_Back_Idle_31: 1090002408
+      Supervisorc_Back_Idle_32: -1549592395
+      Supervisorc_Back_Idle_33: 1047001988
+      Supervisorc_Back_Idle_34: 76420935
+      Supervisorc_Back_Idle_35: -1923447230
+      Supervisorc_Back_Idle_36: -1231760915
+      Supervisorc_Back_Idle_37: 475474748
+      Supervisorc_Back_Idle_38: 33931641
+      Supervisorc_Back_Idle_39: 1774902114
+      Supervisorc_Back_Idle_4: -681638081
+      Supervisorc_Back_Idle_40: -1110620453
+      Supervisorc_Back_Idle_41: -1061808279
+      Supervisorc_Back_Idle_42: 176519526
+      Supervisorc_Back_Idle_5: 1604740429
+      Supervisorc_Back_Idle_6: -296631835
+      Supervisorc_Back_Idle_7: 238698130
+      Supervisorc_Back_Idle_8: 2136059550
+      Supervisorc_Back_Idle_9: 1674335873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
