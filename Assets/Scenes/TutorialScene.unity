@@ -2468,6 +2468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3951053a2dc16ee43a9fbbcf1b2e003d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CanvasManager
+  isPaused: 0
   startingCanvas: {fileID: 610955777}
   pauseMenu: {fileID: 77802680270976175}
 --- !u!4 &1496973865
@@ -3030,6 +3031,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3d33995ae0091540bc5bb1445923686, type: 3}
+--- !u!114 &1930921879 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 943812733114263840, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
+  m_PrefabInstance: {fileID: 77802680270976174}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1943593660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3154,6 +3166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JointTimerUI
       objectReference: {fileID: 0}
+    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 1930921879}
     - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
       propertyPath: startingDuration
       value: 800
@@ -3438,38 +3454,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+    - target: {fileID: 943812733114263840, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
+      propertyPath: m_text
+      value: 1:00
       objectReference: {fileID: 0}
     - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1496973864}
     - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1136829833}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5543749640597962074, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3551,71 +3547,42 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1496973864}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoBack
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1496973864}
     - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1496973864}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 559859283916776294, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 77802680270976180}
   m_SourcePrefab: {fileID: 100100000, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
 --- !u!1 &77802680270976175 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 559859283916776294, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
   m_PrefabInstance: {fileID: 77802680270976174}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &77802680270976180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77802680270976175}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bced8336fec662a409b90a5918523c32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseTimerCanvas
+  timeLeft: 0
+  timerForText: {fileID: 1930921879}
+  timerForJoint: {fileID: 1543840428}
+  pauseMenu: {fileID: 1496973864}
 --- !u!1001 &4360478976390031169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3928,8 +3895,8 @@ SceneRoots:
   - {fileID: 131736094}
   - {fileID: 732868388}
   - {fileID: 701260929}
-  - {fileID: 4360478976390031169}
   - {fileID: 470598669}
+  - {fileID: 4360478976390031169}
   - {fileID: 2070627978}
   - {fileID: 965619110}
   - {fileID: 1929651898}

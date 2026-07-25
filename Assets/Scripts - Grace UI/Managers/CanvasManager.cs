@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class CanvasManager : MonoBehaviour
 {
+    public bool isPaused;
+
     [SerializeField] private GameObject startingCanvas;
     [SerializeField] private GameObject pauseMenu;
 
     private readonly Stack<GameObject> canvasHistory = new();
     private GameObject currentCanvas;
-    private bool isPaused;
+    private bool isResumePressed;
 
     private void Start()
     {
@@ -21,7 +23,11 @@ public class CanvasManager : MonoBehaviour
 
     private void Update()
     {
-        PauseGame();
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame || isResumePressed)
+        {
+            PauseGame();
+            isResumePressed = false;
+        }
     }
 
     public void OpenCanvas(GameObject newCanvas)
@@ -49,27 +55,30 @@ public class CanvasManager : MonoBehaviour
 
     public void PauseGame()
     {
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (SceneManager.GetActiveScene().name == "Title Scene")
         {
-            if (SceneManager.GetActiveScene().name == "Title Scene")
-            {
-                return;
-            }
-            else if (!isPaused)
-            {
-                Time.timeScale = 0f;
-                isPaused = true;
-                currentCanvas.SetActive(false);
-                pauseMenu.SetActive(true);
-            }
-            else
-            {
-                Time.timeScale = 1f;
-                isPaused = false;
-                currentCanvas.SetActive(true);
-                pauseMenu.SetActive(false);
-            }
+            return;
         }
+        else if (!isPaused)
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+            currentCanvas.SetActive(false);
+            pauseMenu.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+            currentCanvas.SetActive(true);
+            pauseMenu.SetActive(false);
+         }
+    }
+
+    //This is for spefically pressing the Resume button
+    public void OnPressingResume()
+    {
+        isResumePressed = true;
     }
 
     public void LoadGame()
