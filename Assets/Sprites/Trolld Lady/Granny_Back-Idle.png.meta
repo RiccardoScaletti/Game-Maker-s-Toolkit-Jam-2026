@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: aaa349b0c56014d4489059898ce4932e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Granny_Back-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3247
+        width: 274
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b788ec6589ffb4dad9d293de69c59c
+      internalID: 1030115825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3247
+        width: 276
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad610a082813ded4bbcef6f0878d85b3
+      internalID: -906988521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 3247
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71da0499eba1a846884222400695167
+      internalID: 613476609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 3247
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303a72b3b87febf49b0af2e23f72ca2d
+      internalID: 1604442546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3247
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6540f8f7f34b741a9ae446750c869c
+      internalID: -2035369104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2841
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faacc560b893f747a8b3128136d61d0
+      internalID: -1942598829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2841
+        width: 276
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7df95f17b6b70742928c3258ffcbd33
+      internalID: -1086958132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2841
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c67134caf0b9cd4aae4573fd33015e9
+      internalID: -322030680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2841
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69900a13201ac1d4586cf4de3de19b05
+      internalID: 100728582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2841
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56333a6a573b74849917ce48212edbad
+      internalID: 731846443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2437
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976aa5abb6fcb174583dc70947b549ed
+      internalID: 405915043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2437
+        width: 276
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21c7fce0e328d347a4bb8df9bf69668
+      internalID: 2078105952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2437
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5b323dd793f984d8b7f726140adc08
+      internalID: 703443428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2437
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857fe162b8ffbfa4f9482cf441082fa2
+      internalID: -1451712580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2437
+        width: 274
+        height: 387
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e73c49f8e286045a4495c5bb568ada
+      internalID: -584913458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2032
+        width: 274
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7382784fd8be4185d7a0099ed330c
+      internalID: -807887581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 2032
+        width: 276
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f01b40a7619d24883ed4a2238e5851
+      internalID: 342726167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 2032
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ee5a87fc710674f926c6c6596a4aae
+      internalID: 888998560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2032
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7603635529ed24f4ca6719bdd634694d
+      internalID: 1271740680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2032
+        width: 274
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a601ac7be0ae94943b243e607b770b67
+      internalID: -204500044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1628
+        width: 274
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d053c9e79feacc84c9b78033deac8187
+      internalID: -1871405455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1628
+        width: 276
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f4ac89bb1bcb1498d4bf49a05c5513
+      internalID: -136088012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1628
+        width: 274
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7ee4950d09c474e94e91463daf326a
+      internalID: 307291246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1628
+        width: 274
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a9370289049a74f9059d4f8c3eec9f
+      internalID: -123921224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1628
+        width: 274
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fb3d4e2a4ec154e82e81ea85f45763
+      internalID: -702949537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1222
+        width: 274
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc439e026ef0214ca37792243fdb547
+      internalID: 1997774388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1222
+        width: 276
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66992473d7ef00b40b1bb4bee9381cd4
+      internalID: 1344057669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1222
+        width: 274
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccdf7ab2c187c844be8c1268334069f
+      internalID: 1888501178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1222
+        width: 274
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f20c555a192f9a4d99d58265c597bff
+      internalID: 1074123770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1222
+        width: 274
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1bdd9464094e24fb488b481bb83447
+      internalID: 1089507416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 816
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07937fbeb71ecbf49a024483517c4b62
+      internalID: -205628357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_31
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 816
+        width: 276
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6bba436dcf0e64b8a4fa36c72364da
+      internalID: 1797728242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 816
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ab0e588e5dff84f9e3cea2c24e717f
+      internalID: 488759427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 816
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52da5f748323004c89ddf23b6f41c71
+      internalID: 372992001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 816
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4225ab2391c10e458bc5b34c77bacce
+      internalID: 1253419625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_35
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 412
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6912ce8a53340438c5a87112b73366
+      internalID: -1413531532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_36
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 412
+        width: 276
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd6aae29d11b554f93edb9899bdf7ed
+      internalID: -2040211956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 412
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119435b7924ffee42ad82a4252b4eb33
+      internalID: 13325483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 412
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05650004414ae6e44a929763bcf1cf33
+      internalID: 910622619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 412
+        width: 274
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c4c9fbcf7ad674497d48d59a94e107
+      internalID: 422938135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 6
+        width: 274
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ed9189e150574998b3683523e9cdb
+      internalID: -793630949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_41
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 6
+        width: 276
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f0f8fc03710eb49b3e966222ab482a
+      internalID: 1833106367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_Back-Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 6
+        width: 274
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7cca25e49c210448b8dd7bd2f31c36
+      internalID: -488111760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 35c3d5b25009f0348afae83bb84a37ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Granny_Back-Idle_0: 1030115825
+      Granny_Back-Idle_1: -906988521
+      Granny_Back-Idle_10: 405915043
+      Granny_Back-Idle_11: 2078105952
+      Granny_Back-Idle_12: 703443428
+      Granny_Back-Idle_13: -1451712580
+      Granny_Back-Idle_14: -584913458
+      Granny_Back-Idle_15: -807887581
+      Granny_Back-Idle_16: 342726167
+      Granny_Back-Idle_17: 888998560
+      Granny_Back-Idle_18: 1271740680
+      Granny_Back-Idle_19: -204500044
+      Granny_Back-Idle_2: 613476609
+      Granny_Back-Idle_20: -1871405455
+      Granny_Back-Idle_21: -136088012
+      Granny_Back-Idle_22: 307291246
+      Granny_Back-Idle_23: -123921224
+      Granny_Back-Idle_24: -702949537
+      Granny_Back-Idle_25: 1997774388
+      Granny_Back-Idle_26: 1344057669
+      Granny_Back-Idle_27: 1888501178
+      Granny_Back-Idle_28: 1074123770
+      Granny_Back-Idle_29: 1089507416
+      Granny_Back-Idle_3: 1604442546
+      Granny_Back-Idle_30: -205628357
+      Granny_Back-Idle_31: 1797728242
+      Granny_Back-Idle_32: 488759427
+      Granny_Back-Idle_33: 372992001
+      Granny_Back-Idle_34: 1253419625
+      Granny_Back-Idle_35: -1413531532
+      Granny_Back-Idle_36: -2040211956
+      Granny_Back-Idle_37: 13325483
+      Granny_Back-Idle_38: 910622619
+      Granny_Back-Idle_39: 422938135
+      Granny_Back-Idle_4: -2035369104
+      Granny_Back-Idle_40: -793630949
+      Granny_Back-Idle_41: 1833106367
+      Granny_Back-Idle_42: -488111760
+      Granny_Back-Idle_5: -1942598829
+      Granny_Back-Idle_6: -1086958132
+      Granny_Back-Idle_7: -322030680
+      Granny_Back-Idle_8: 100728582
+      Granny_Back-Idle_9: 731846443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

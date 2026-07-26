@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 5e7ff5287d1744c40be0d69a4b82d47f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3254
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3c2f10c7053b4459c3443d0a74bfdc
+      internalID: -1960505324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 3254
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb0760463fc50d4ca3447f5fcbb7366
+      internalID: 141431423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 3254
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c76b3572019d2428feb49ab712c583
+      internalID: 1224093218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 3254
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ff51105a31bd847bdc0a1b615825f6
+      internalID: 1826579738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 3254
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ba75ff35546bf458181a5485078435
+      internalID: 286596114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2850
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3fab2ed3d364446be02a79e59f4041
+      internalID: -957489560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2850
+        width: 257
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebb138a861982d42931484311b83ba0
+      internalID: 679004789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 2850
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b0dbf58c9189f4896349a797e2ad55
+      internalID: 411486503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2850
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72aa0c6595304e340aacdcc6604b8292
+      internalID: -144435372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 2850
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204063358a337bd4d8918b139e2bbc9e
+      internalID: -655893326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2445
+        width: 255
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e360d6040f1d1443b5eb952bc9a3371
+      internalID: 1054728545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2445
+        width: 256
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e3566c1d7dde64c8518da21f3f2b16
+      internalID: -2043537361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 2445
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85302b1162c53f14c9d002a967f49f1e
+      internalID: 2110841828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2445
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b643065cb4cc44b9f7f6f4dff4ca8f
+      internalID: 67946853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 2445
+        width: 256
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7309b03d55731eb46998cd63ca7fc7d1
+      internalID: -364674436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 2041
+        width: 257
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a147ac7b0ff86e640a96f0a7e5746902
+      internalID: -101025140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 2041
+        width: 256
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69042ad1aff8b2b46bf8bb41b769c090
+      internalID: -2040113599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 2041
+        width: 254
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c296509e18423438234833b4d5be63
+      internalID: 1329698498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2041
+        width: 254
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf179d3cb7d4df419d7458916f5ecb8
+      internalID: 726917073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 2041
+        width: 256
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6cc533416866c4d8e154c152e2b552
+      internalID: 492637219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1635
+        width: 255
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb2815634575184a9c146b95069652c
+      internalID: 678265088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1635
+        width: 257
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f140b4fd6356a0f4588bbd711c69ef5b
+      internalID: 1870221653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1635
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edc28bfbc4196a43911f17da983ed1d
+      internalID: 121104730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1635
+        width: 254
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3c8ca1536e70f4986f2786b287246a
+      internalID: -465380285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 1635
+        width: 256
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f663fcb6ae79544ba22f458b6424fb4
+      internalID: 1734086133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1229
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec1a2f5381e884b91380459d45a529
+      internalID: 1350798093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1229
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4febeca24902f9b46814841ce93e3046
+      internalID: 2053286048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1229
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e5f9a5da227c740a122a59777f158e
+      internalID: 990953218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 1229
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aad900378bbcb4fa9f5ec907e738d5
+      internalID: -559511464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 1229
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14769b21673a01c4b82547fd99f92af4
+      internalID: 1811659133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_30
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 825
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f53a29c3a21f42bf09ab855a9dc1c
+      internalID: -1025065548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_31
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 825
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f5d328e20a36347a85d5b225af402b
+      internalID: 1366864250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 825
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efb5bf6e158ef24eb9b58f2409771ce
+      internalID: 1375170235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 825
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863880a15b9da0f43ab983eb6af7ba4e
+      internalID: 1488426516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 825
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508b37c249a30a4c8b83bcff34c9c9e
+      internalID: 2075980371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_35
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 419
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642123f6b580ce2419bc12bf24520eb6
+      internalID: 1759047042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_36
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 419
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee57581aeebba645a73b3e8fb677a3c
+      internalID: -1007641792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 419
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34faec856ef168b41a1d658b095c6df2
+      internalID: 940617388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 419
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9cb2694201ff8489210bd8424fba4c
+      internalID: -2102405721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 419
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d81ed735a643246b3828a0a512370b
+      internalID: -53463229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_40
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 15
+        width: 255
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac1a83afedc0b64c82fa74d47a69bdc
+      internalID: -2135134709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_41
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 15
+        width: 256
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca428a404fd0404da90629757af8c69
+      internalID: -437281858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granny_SideR-Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 15
+        width: 254
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a1d9e76a2912a4a841721e90e8bfa6
+      internalID: 223191779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5d2f728b82771c4f8fcd8135ae16c29
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Granny_SideR-Idle_0: -1960505324
+      Granny_SideR-Idle_1: 141431423
+      Granny_SideR-Idle_10: 1054728545
+      Granny_SideR-Idle_11: -2043537361
+      Granny_SideR-Idle_12: 2110841828
+      Granny_SideR-Idle_13: 67946853
+      Granny_SideR-Idle_14: -364674436
+      Granny_SideR-Idle_15: -101025140
+      Granny_SideR-Idle_16: -2040113599
+      Granny_SideR-Idle_17: 1329698498
+      Granny_SideR-Idle_18: 726917073
+      Granny_SideR-Idle_19: 492637219
+      Granny_SideR-Idle_2: 1224093218
+      Granny_SideR-Idle_20: 678265088
+      Granny_SideR-Idle_21: 1870221653
+      Granny_SideR-Idle_22: 121104730
+      Granny_SideR-Idle_23: -465380285
+      Granny_SideR-Idle_24: 1734086133
+      Granny_SideR-Idle_25: 1350798093
+      Granny_SideR-Idle_26: 2053286048
+      Granny_SideR-Idle_27: 990953218
+      Granny_SideR-Idle_28: -559511464
+      Granny_SideR-Idle_29: 1811659133
+      Granny_SideR-Idle_3: 1826579738
+      Granny_SideR-Idle_30: -1025065548
+      Granny_SideR-Idle_31: 1366864250
+      Granny_SideR-Idle_32: 1375170235
+      Granny_SideR-Idle_33: 1488426516
+      Granny_SideR-Idle_34: 2075980371
+      Granny_SideR-Idle_35: 1759047042
+      Granny_SideR-Idle_36: -1007641792
+      Granny_SideR-Idle_37: 940617388
+      Granny_SideR-Idle_38: -2102405721
+      Granny_SideR-Idle_39: -53463229
+      Granny_SideR-Idle_4: 286596114
+      Granny_SideR-Idle_40: -2135134709
+      Granny_SideR-Idle_41: -437281858
+      Granny_SideR-Idle_42: 223191779
+      Granny_SideR-Idle_5: -957489560
+      Granny_SideR-Idle_6: 679004789
+      Granny_SideR-Idle_7: 411486503
+      Granny_SideR-Idle_8: -144435372
+      Granny_SideR-Idle_9: -655893326
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
