@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using System;
 
 /// <summary>
 /// Interaction: The script that is put onto whatever object you want the InteractionPromnpt Canvas to show up
@@ -9,6 +10,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider))]
 public class TaskInteractable : MonoBehaviour
 {
+
     [Header("Prompt")]
     [SerializeField] private Sprite keycapSprite;
     [SerializeField] private string keyLetter = "E";
@@ -21,19 +23,47 @@ public class TaskInteractable : MonoBehaviour
     private bool playerInRange;
     private bool taskCompleted;
 
-    [Header("Sound")]
-    public bool isRummageable = false;
-    public bool isSmoking = false;
-    public bool isTalking = false;
-    public float stopSoundDelay = 1f;
+    /*private void Start()
+    {
+        CigCountManager.CigCount += 0;
+    }*/
 
     private void Update()
     {
+        if (!playerInRange || taskCompleted)
+        {
+            return;
+        }
 
+        if (Keyboard.current != null &&
+            Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            CompleteTask();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
+        if (!other.CompareTag("Player"))
+        {
+            return;
+        }
+
+        playerInRange = true;
+
+        if (!taskCompleted && InteractionUI.Instance != null)
+        {
+            InteractionUI.Instance.ShowPrompt(
+                keycapSprite,
+                keyLetter,
+                actionMessage
+            );
+        }
+
+        //Debug Tester Code: Can get rid of once it has successfully triggered the player nearby
+        
+        Debug.Log($"Something entered the trigger: {other.name}");
+
         if (!other.CompareTag("Player"))
         {
             return;
@@ -66,40 +96,12 @@ public class TaskInteractable : MonoBehaviour
         }
     }
 
-    public void InteractWithObject() 
-    {
-        if (playerInRange && PlayerManager.Instance.taskInteractable == this)
-        {
-            if (!taskCompleted)
-            {
-                if (isRummageable)
-                {
-                    Debug.Log($"Rummaging through: {name}");
-                    AudioManager.Instance.PlaySFX(AudioManager.Instance.genericRummage, stopSoundDelay);
-                }
-
-                if (isSmoking)
-                {
-                    Debug.Log($"Smoking: {name}");
-                    AudioManager.Instance.PlaySFX(AudioManager.Instance.smoking);
-                }
-
-                if (isTalking)
-                {
-                    Debug.Log($"Talking to: {name}");
-                    AudioManager.Instance.PlaySegment(AudioManager.Instance.goblinNoise, 66f, stopSoundDelay);
-                }
-
-                CompleteTask();
-            }
-        }
-    }
-
     private void CompleteTask()
     {
         Debug.Log($"Task completed: {gameObject.name}");
 
         onTaskCompleted.Invoke();
+        CigCountManager.CigCount += 1;
 
         if (canOnlyCompleteOnce)
         {
@@ -122,4 +124,6 @@ public class TaskInteractable : MonoBehaviour
 
         playerInRange = false;
     }
+
+    
 }
