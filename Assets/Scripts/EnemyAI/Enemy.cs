@@ -77,10 +77,13 @@ namespace EnemyAI
         {
             curVelocity = Agent.velocity.magnitude;
 
-            if (CanSeePlayer())
-                anim.SetBool("canSeePlayer", true);
-            else
-                anim.SetBool("canSeePlayer", false);
+            if (enemyType != eEnemyType.Customer)
+            {
+                if (CanSeePlayer())
+                    anim.SetBool("canSeePlayer", true);
+                else
+                    anim.SetBool("canSeePlayer", false);
+            }
 
             if (Agent.velocity.magnitude > 3.1f)
                 anim.SetFloat("velocity", 3.5f);
