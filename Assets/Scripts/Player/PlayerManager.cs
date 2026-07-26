@@ -120,6 +120,10 @@ public class PlayerManager : MonoBehaviour
 
     public void OnMovePlayer(InputAction.CallbackContext context)
     {
+        if (isCaptured)
+        {
+            return;
+        }
         moveVector = context.ReadValue<Vector2>();
     }
 
@@ -132,7 +136,10 @@ public class PlayerManager : MonoBehaviour
     {
         //if (interactable != null)
         //    interactable.Interact();
-
+        if (isCaptured)
+        {
+            return;
+        }
         if (taskInteractable != null)
             taskInteractable.InteractWithObject();
     }

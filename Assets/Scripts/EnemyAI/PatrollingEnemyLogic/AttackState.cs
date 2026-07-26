@@ -30,13 +30,8 @@ namespace EnemyAI.StateMachine
             }
             else
             {
-                losePlayerTimer += Time.deltaTime;
-                if (losePlayerTimer >= enemy.maxTimeToLosePlayer)
-                {
-                    // change to search state
-                    stateMachine.ChangeState(new SearchState());
-                }
-}
+                stateMachine.ChangeState(new SearchState());
+            }
         }
     }
 
