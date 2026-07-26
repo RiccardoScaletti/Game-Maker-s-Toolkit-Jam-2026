@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.InputSystem;
+using System.Collections;
 
 /// <summary>
 /// Interaction: The script that is put onto whatever object you want the InteractionPromnpt Canvas to show up
@@ -16,7 +16,9 @@ public class TaskInteractable : MonoBehaviour
 
     [Header("Task")]
     [SerializeField] private bool canOnlyCompleteOnce = true;
+    [SerializeField, Min(0f)] private float taskDuration = 2f;
     [SerializeField] private UnityEvent onTaskCompleted;
+    private bool taskInProgress;
 
     private bool playerInRange;
     private bool taskCompleted;
@@ -26,6 +28,11 @@ public class TaskInteractable : MonoBehaviour
     public bool isSmoking = false;
     public bool isTalking = false;
     public float stopSoundDelay = 1f;
+
+    public enum TaskAnimation { None, Smoking, Goose, Orb }
+
+    [Header("Animation")]
+    [SerializeField] private TaskAnimation taskAnimation = TaskAnimation.None;
 
     private void Update()
     {
@@ -66,33 +73,52 @@ public class TaskInteractable : MonoBehaviour
         }
     }
 
-    public void InteractWithObject() 
+    public void InteractWithObject()
     {
         if (playerInRange && PlayerManager.Instance.taskInteractable == this)
         {
-            if (!taskCompleted)
+            if (!taskCompleted && !taskInProgress)
             {
                 if (isRummageable)
                 {
                     Debug.Log($"Rummaging through: {name}");
                     AudioManager.Instance.PlaySFX(AudioManager.Instance.genericRummage, stopSoundDelay);
                 }
-
                 if (isSmoking)
                 {
                     Debug.Log($"Smoking: {name}");
                     AudioManager.Instance.PlaySFX(AudioManager.Instance.smoking);
                 }
-
                 if (isTalking)
                 {
                     Debug.Log($"Talking to: {name}");
                     AudioManager.Instance.PlaySegment(AudioManager.Instance.goblinNoise, 66f, stopSoundDelay);
                 }
-
-                CompleteTask();
+                StartCoroutine(TaskRoutine());
             }
         }
+    }
+
+    private IEnumerator TaskRoutine()
+    {
+        taskInProgress = true;
+        PlayerManager.Instance.LockPlayer();
+        PlayerManager.Instance.PlayTaskAnimation(taskAnimation);
+
+        if (InteractionUI.Instance != null)
+            InteractionUI.Instance.HidePrompt();   // optional: hide prompt while working
+
+        yield return new WaitForSeconds(taskDuration);
+
+        if (PlayerManager.Instance.IsCaptured)
+        {
+            taskInProgress = false;
+            yield break;   // task interrupted, player keeps input disabled from capture
+        }
+
+        PlayerManager.Instance.UnlockPlayer();
+        taskInProgress = false;
+        CompleteTask();
     }
 
     private void CompleteTask()

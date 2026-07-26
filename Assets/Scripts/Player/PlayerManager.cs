@@ -155,16 +155,21 @@ public class PlayerManager : MonoBehaviour
 
     private void SpriteControl()
     {
-        animator.SetBool("isWalking", rb.linearVelocity.magnitude > 0);
+        bool isLeft = moveVector.x < 0;
+        bool isRight = moveVector.x > 0;
+        bool isForward = moveVector.y > 0;
+        bool isBackward = moveVector.y < 0;
+
+        animator.SetBool("isLeft", isLeft);
+        animator.SetBool("isRight", isRight);
+        animator.SetBool("isForward", isForward);
+        animator.SetBool("isBackward", isBackward);
+        animator.SetBool("isWalking", moveVector.sqrMagnitude > 0.01f);
 
         if (moveVector.x > 0)
-        {
             spriteRenderer.flipX = false;
-        }
         else if (moveVector.x < 0)
-        {
             spriteRenderer.flipX = true;
-        }
     }
 
     public void CapturePlayer(GameObject capturePoint)
@@ -188,5 +193,34 @@ public class PlayerManager : MonoBehaviour
         rb.useGravity = true;
 
         transform.parent = null;
-    }  
+    }
+
+    public void LockPlayer()
+    {
+        moveVector = Vector2.zero;   // stop immediately, don't wait for the canceled event
+        InputSystem.actions.Disable();
+    }
+
+    public void UnlockPlayer()
+    {
+        // Don't re-enable input if something else locked it while the task was running
+        if (!youLose && !youWin && !isCaptured)
+            InputSystem.actions.Enable();
+    }
+
+    public void PlayTaskAnimation(TaskInteractable.TaskAnimation anim)
+    {
+        switch (anim)
+        {
+            case TaskInteractable.TaskAnimation.Smoking:
+                animator.SetTrigger("smokingTrigger");
+                break;
+            case TaskInteractable.TaskAnimation.Goose:
+                animator.SetTrigger("goose");
+                break;
+            case TaskInteractable.TaskAnimation.Orb:
+                animator.SetTrigger("orb");
+                break;
+        }
+    }
 }
