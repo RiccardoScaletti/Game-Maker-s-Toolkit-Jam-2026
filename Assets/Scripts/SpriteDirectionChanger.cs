@@ -21,7 +21,11 @@ public class SpriteDirectionChanger : MonoBehaviour
         lastPosition = transform.position;
         camTransform = Camera.main.transform;
     }
-
+    private void OnEnable()
+    {
+        if (isGranny)
+            enabled = false;
+    }
     void Update()
     {
         SpriteSwap();

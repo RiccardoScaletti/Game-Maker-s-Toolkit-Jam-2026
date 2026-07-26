@@ -20,7 +20,7 @@ namespace EnemyAI
             int newWaypoint = 0;
             float closestDistance = Vector3.Distance(waypoints[newWaypoint].position, transform.position);
 
-            for (int i = 1; i < waypoints.Count; ++i)
+            for (int i = 0; i < waypoints.Count; i++)
             {
                 float checkDistance = Vector3.Distance(waypoints[i].position, transform.position);
                 if (checkDistance < closestDistance)
@@ -29,7 +29,6 @@ namespace EnemyAI
                     closestDistance = checkDistance;
                 }      
             }
-
             return newWaypoint;
         }
 

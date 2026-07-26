@@ -31,7 +31,7 @@ namespace EnemyAI.StateMachine
 
         public void PatrolCycle()
         {
-            if (enemy.Agent.remainingDistance < .2f)
+            if (enemy.Agent.remainingDistance < .1f)
             {
                 curWaypoint = (++curWaypoint) % enemy.mainPath.waypoints.Count; // go to next waypoint
                 enemy.Agent.SetDestination(enemy.mainPath.waypoints[curWaypoint].position);
