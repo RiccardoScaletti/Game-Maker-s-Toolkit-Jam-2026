@@ -9,6 +9,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider))]
 public class TaskInteractable : MonoBehaviour
 {
+    public int cigCount; //This is purely for the tutorial but gathering this many cigarretes will end the tutorial
+
     [Header("Prompt")]
     [SerializeField] private Sprite keycapSprite;
     [SerializeField] private string keyLetter = "E";
@@ -105,6 +107,7 @@ public class TaskInteractable : MonoBehaviour
             InteractionUI.Instance.HidePrompt();
         }
         Destroy(gameObject);
+        cigCount++;
     }
 
     private void OnDisable()
