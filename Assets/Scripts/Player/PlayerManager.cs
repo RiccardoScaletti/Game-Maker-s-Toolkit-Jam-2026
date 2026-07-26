@@ -121,6 +121,7 @@ public class PlayerManager : MonoBehaviour
 
     public void OnMovePlayer(InputAction.CallbackContext context)
     {
+        if (isCaptured) return;
         moveVector = context.ReadValue<Vector2>();
     }
 
@@ -131,6 +132,7 @@ public class PlayerManager : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
+        if (isCaptured) return;
         //if (interactable != null)
         //    interactable.Interact();
 

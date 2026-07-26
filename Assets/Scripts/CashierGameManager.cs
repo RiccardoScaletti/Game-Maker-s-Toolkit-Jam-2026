@@ -8,10 +8,13 @@ public class CashierGameManager : MonoBehaviour
 
     public bool allClientsServed;
 
+    [SerializeField] private AudioClip CashierSound;
+
     private void Awake()
     {
         controls = new CashierControls();
         allClientsServed = false;
+        AudioManager.Instance.PlaySFX(CashierSound);
     }
 
     [Header("Cashier Images")]
