@@ -1,0 +1,901 @@
+fileFormatVersion: 2
+guid: e283613263271604fbd165bf98908421
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2432
+        width: 257
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc0170619bd324fa6bd6fdea7cbb76
+      internalID: -427512919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2432
+        width: 257
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b109551f4abce044ebb0102a84c08c0f
+      internalID: 367355077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2432
+        width: 257
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4450df0a00912a641a833235b56e0a57
+      internalID: -433564838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 2432
+        width: 258
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae90d61fb2c0e943bd3b60d0410d47e
+      internalID: 1892553521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 2432
+        width: 256
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cde9e4afc985045838dfebdcab6f5a
+      internalID: -918311445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2026
+        width: 257
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a11222b4c0f3d2449022a2a1e61042e
+      internalID: -585486519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 2026
+        width: 259
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba10b82a4879e2941bcb34203be8cf54
+      internalID: -1262708299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 2026
+        width: 258
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c6c81af422e6246ab6cd2aed535525
+      internalID: 1252907859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2026
+        width: 257
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6125e5a93d6faa419037800ff7bc83e
+      internalID: -1906784567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 2026
+        width: 258
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05e82f785e84674883973328e237763
+      internalID: 1907087363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1621
+        width: 259
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc32930cda67154ea02182ca0600dad
+      internalID: 92700843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1621
+        width: 259
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce4184fe85a0194193662074b18fadf
+      internalID: -64117015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1621
+        width: 258
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb0fa08e32c934a86f043498075d72
+      internalID: 1741883118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1621
+        width: 258
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777b5c4bba8914f4ab2356ca334e392d
+      internalID: 1607992929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 1621
+        width: 258
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55814f8685b0a124589dafc52f42eb26
+      internalID: -1094301246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1215
+        width: 259
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f706da0ac9bab4ba148711a3c8cd34
+      internalID: -1352886329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1215
+        width: 259
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840139112bf98646b5ec832381cf3ff
+      internalID: 1573176009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1215
+        width: 257
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f69214e226d229448db0428717f3ded
+      internalID: -1853738172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 1215
+        width: 258
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca456e31c3f31f408b1f80fa4e99510
+      internalID: 1988067746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 1215
+        width: 256
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b8bd7b51ae7c0478bbd78c906acd70
+      internalID: -933441709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 811
+        width: 257
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4342ba507c88d04da9ebcb575f99c0f
+      internalID: 1298768848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 811
+        width: 257
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9b66cf5e318e04186eb2b0bbd53749
+      internalID: 1667517960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 811
+        width: 257
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778041da3ff5bf4bbba074dd7907d8e
+      internalID: 421218890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 811
+        width: 257
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf050207874892e40b8b0f8349e504e7
+      internalID: 1676230331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 811
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef12f504d9264f844bd3ef852a67db6f
+      internalID: -1571605843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 405
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec57901820c594949908c9e0f781209d
+      internalID: -701514586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 405
+        width: 257
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8889eaec55d1f4983dcb36ef75c10c
+      internalID: -1078101792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 405
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92679b423549aab47a3931ac843db4f3
+      internalID: 1148810845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 405
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5746889004899e44988ee04921232560
+      internalID: -1907392010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 405
+        width: 255
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eebed2b45419a4f8dd49a6fd3663ea
+      internalID: -685864954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_30
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1
+        width: 254
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae0b37f141c23e4c95258b7dc84b7b3
+      internalID: 1050542910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_31
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1
+        width: 255
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b19870fa19a034bb73d9b877cd4a5a
+      internalID: 324089429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1
+        width: 255
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c21b4b86cded2449af3394412465a2
+      internalID: -1689143660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Supervisorc_Side-Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1
+        width: 256
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b278f8e5cf3b740b0593b11041b7f6
+      internalID: -184789506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c7a4a9de253ce841ad531720e89f002
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Supervisorc_Side-Idle_0: -427512919
+      Supervisorc_Side-Idle_1: 367355077
+      Supervisorc_Side-Idle_10: 92700843
+      Supervisorc_Side-Idle_11: -64117015
+      Supervisorc_Side-Idle_12: 1741883118
+      Supervisorc_Side-Idle_13: 1607992929
+      Supervisorc_Side-Idle_14: -1094301246
+      Supervisorc_Side-Idle_15: -1352886329
+      Supervisorc_Side-Idle_16: 1573176009
+      Supervisorc_Side-Idle_17: -1853738172
+      Supervisorc_Side-Idle_18: 1988067746
+      Supervisorc_Side-Idle_19: -933441709
+      Supervisorc_Side-Idle_2: -433564838
+      Supervisorc_Side-Idle_20: 1298768848
+      Supervisorc_Side-Idle_21: 1667517960
+      Supervisorc_Side-Idle_22: 421218890
+      Supervisorc_Side-Idle_23: 1676230331
+      Supervisorc_Side-Idle_24: -1571605843
+      Supervisorc_Side-Idle_25: -701514586
+      Supervisorc_Side-Idle_26: -1078101792
+      Supervisorc_Side-Idle_27: 1148810845
+      Supervisorc_Side-Idle_28: -1907392010
+      Supervisorc_Side-Idle_29: -685864954
+      Supervisorc_Side-Idle_3: 1892553521
+      Supervisorc_Side-Idle_30: 1050542910
+      Supervisorc_Side-Idle_31: 324089429
+      Supervisorc_Side-Idle_32: -1689143660
+      Supervisorc_Side-Idle_33: -184789506
+      Supervisorc_Side-Idle_4: -918311445
+      Supervisorc_Side-Idle_5: -585486519
+      Supervisorc_Side-Idle_6: -1262708299
+      Supervisorc_Side-Idle_7: 1252907859
+      Supervisorc_Side-Idle_8: -1906784567
+      Supervisorc_Side-Idle_9: 1907087363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
