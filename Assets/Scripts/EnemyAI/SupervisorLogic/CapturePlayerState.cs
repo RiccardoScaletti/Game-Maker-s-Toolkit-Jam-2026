@@ -32,7 +32,7 @@ namespace EnemyAI.StateMachine
                 // place player on capture point
                 PlayerManager.Instance.CapturePlayer(supEnemy.playerCapturePoint.gameObject);
                 // activate capture point
-                supEnemy.playerCapturePoint.enabled = true;
+                supEnemy.playerCapturePoint.SetActive(true);
                 // set destination to "office"
                 stateMachine.ChangeState(new PatrolOfficeState());
             }
