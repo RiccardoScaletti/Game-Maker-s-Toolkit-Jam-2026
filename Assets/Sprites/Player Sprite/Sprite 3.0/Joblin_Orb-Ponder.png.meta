@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 7cb32e3d83119f148bd4ff39b6037bb0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3260
+        width: 315
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8414e95515a6fd489f5a64a2982b1b2
+      internalID: -2049175402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_1
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3260
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da71750429594464bb182ad9171f1709
+      internalID: 958767781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_2
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 3260
+        width: 314
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0efb6a4628abe44a1b5c950278e25b
+      internalID: 1158998583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_3
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 3260
+        width: 314
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aebabe60a9bbef49a99e3b34de3f3d9
+      internalID: 1017424876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_4
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 3260
+        width: 313
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dea51b8108657478605c3f28d92c4f
+      internalID: 375666996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2854
+        width: 315
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491e7a2b0377d1c449366a837eb7e7c8
+      internalID: 1704072215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_6
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2854
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b6c69428ab07340bf9e66643eb7a69
+      internalID: -923375113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_7
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2854
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707475d1201d081469f01febcda3e203
+      internalID: -1812912469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_8
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 2854
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe9252f8be37de439c35b40f6ebc5c0
+      internalID: 271559559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_9
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2854
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9b4483830e334e936cfd49e33c1cf
+      internalID: 967092626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2450
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35db7b88af1e374fa70ae4fb8d6bda3
+      internalID: -1538609134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_11
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2450
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da620e9e904660442a6e4bf4f5dc4b74
+      internalID: -1169822683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_12
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2450
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e2a38e006542a4788de653221e026f
+      internalID: -1097658685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_13
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 2450
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae59510a86b168544954709a3a028429
+      internalID: 2146737981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_14
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2450
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f563987da5c8b4d98394118ebdba77
+      internalID: -419369994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2044
+        width: 315
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60a53db1c23cae4d94834f7e6823d53
+      internalID: 2141663393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_16
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2044
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d68ab2efa6e186468114bdcc9f0d13d
+      internalID: 1581199765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_17
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2044
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189dc22c52011fd48aaec6a73cb50afa
+      internalID: -834393373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_18
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 2044
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ac52511f1638b45a2f877ef28179b3
+      internalID: 266913588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_19
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2044
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58aa9777b053a044a8b1c64d3846664c
+      internalID: -1304046805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1640
+        width: 310
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682e1d0d7f0d99844b3e8126ccff997b
+      internalID: -495233583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_21
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1640
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37f773a7cb0dfe41b08f12ec3f4213c
+      internalID: -1010442406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_22
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1640
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820f21f66acb85842b1177adbcc5d5ee
+      internalID: 122967519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_23
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 1638
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed75c039181e1e74fbe3200ff1899bf7
+      internalID: -875110453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_24
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1638
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60de1567f667424e84e315a95e0611c
+      internalID: -875798572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1234
+        width: 313
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e289edd01c15d4183cb32fbed2b2ea
+      internalID: -934677687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_26
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1234
+        width: 311
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f065f57a356ed774690f1f51e216590c
+      internalID: -1296384352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_27
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1234
+        width: 312
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac49dcf8d69d13343a2351c403f91b2f
+      internalID: -1667275152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_28
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1234
+        width: 312
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13872220d4194eb4c93a81112aa8daf0
+      internalID: 180307678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_29
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1234
+        width: 311
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cda4dc5e8fe8d14885273d098e62dbe
+      internalID: -439424529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_30
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 829
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafe5668c27875c4997105da7b279b15
+      internalID: -968908945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_31
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 829
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00b40af8f7f04441b68034e747081f0
+      internalID: -316569946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_32
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 829
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258149f1c27aa814d8f769bed8b64ef0
+      internalID: 1733556202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_33
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 829
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c956ea6781914596ce36598de1964
+      internalID: -860043574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_34
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 829
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad6af32044b8b34f8b1770d43c4c0aa
+      internalID: 1412864754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_35
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 424
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b899e44b49efded46a474c5bff45fb8b
+      internalID: -1245285798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_36
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 424
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3142cb27e1eef43aec587ca5d8adff
+      internalID: 696209612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_37
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 424
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e889239e8ff1ca459d187a4c3050bf1
+      internalID: -856652990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_38
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 424
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c3786f4edd1e4daa351915ac05f05
+      internalID: 478849538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_39
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 424
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99109304edb64da47846e9ad12b203aa
+      internalID: 1330432217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 19
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36f991eeda5f1049b7f6e33f4d1e093
+      internalID: -682567819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_41
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 19
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8832ccf86ff9e944589a68d41675f41b
+      internalID: 950436550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Orb-Ponder_42
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 19
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297c1b2a5c4f794fa3eec03423d3424
+      internalID: 1050345368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 18ee428f22c2d6e40b60ef11b24e32c2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Joblin_Orb-Ponder_0: -2049175402
+      Joblin_Orb-Ponder_1: 958767781
+      Joblin_Orb-Ponder_10: -1538609134
+      Joblin_Orb-Ponder_11: -1169822683
+      Joblin_Orb-Ponder_12: -1097658685
+      Joblin_Orb-Ponder_13: 2146737981
+      Joblin_Orb-Ponder_14: -419369994
+      Joblin_Orb-Ponder_15: 2141663393
+      Joblin_Orb-Ponder_16: 1581199765
+      Joblin_Orb-Ponder_17: -834393373
+      Joblin_Orb-Ponder_18: 266913588
+      Joblin_Orb-Ponder_19: -1304046805
+      Joblin_Orb-Ponder_2: 1158998583
+      Joblin_Orb-Ponder_20: -495233583
+      Joblin_Orb-Ponder_21: -1010442406
+      Joblin_Orb-Ponder_22: 122967519
+      Joblin_Orb-Ponder_23: -875110453
+      Joblin_Orb-Ponder_24: -875798572
+      Joblin_Orb-Ponder_25: -934677687
+      Joblin_Orb-Ponder_26: -1296384352
+      Joblin_Orb-Ponder_27: -1667275152
+      Joblin_Orb-Ponder_28: 180307678
+      Joblin_Orb-Ponder_29: -439424529
+      Joblin_Orb-Ponder_3: 1017424876
+      Joblin_Orb-Ponder_30: -968908945
+      Joblin_Orb-Ponder_31: -316569946
+      Joblin_Orb-Ponder_32: 1733556202
+      Joblin_Orb-Ponder_33: -860043574
+      Joblin_Orb-Ponder_34: 1412864754
+      Joblin_Orb-Ponder_35: -1245285798
+      Joblin_Orb-Ponder_36: 696209612
+      Joblin_Orb-Ponder_37: -856652990
+      Joblin_Orb-Ponder_38: 478849538
+      Joblin_Orb-Ponder_39: 1330432217
+      Joblin_Orb-Ponder_4: 375666996
+      Joblin_Orb-Ponder_40: -682567819
+      Joblin_Orb-Ponder_41: 950436550
+      Joblin_Orb-Ponder_42: 1050345368
+      Joblin_Orb-Ponder_5: 1704072215
+      Joblin_Orb-Ponder_6: -923375113
+      Joblin_Orb-Ponder_7: -1812912469
+      Joblin_Orb-Ponder_8: 271559559
+      Joblin_Orb-Ponder_9: 967092626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

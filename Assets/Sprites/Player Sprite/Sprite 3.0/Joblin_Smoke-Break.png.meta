@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: a69f5ecfe3d44bf4a827038a7dcbe550
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3260
+        width: 315
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad7fe7ad84b40a4296d1875ab3a6a3e
+      internalID: 885780671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_1
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3260
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1797729993ff05e428a06b1eb18afbbf
+      internalID: 1368614181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_2
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 3260
+        width: 314
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd3c551e45a92740abbb5091eb4db0f
+      internalID: 447203713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_3
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 3260
+        width: 312
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f351c847563d0c4795f561cb295f44b
+      internalID: -1613712550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_4
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 3260
+        width: 313
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be714444fd38eab4d952bb91e306bec9
+      internalID: -50444745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2854
+        width: 311
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb380df95d269447b631ab92c9ae937
+      internalID: 1454513275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_6
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2854
+        width: 312
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b8ff24d989ad4abe60a9b6c29d741
+      internalID: -942831179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_7
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2854
+        width: 314
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e239aa465dc8499f27f5c31cc5c31
+      internalID: -256597476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_8
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 2854
+        width: 314
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e7512cda303f5439783e4847ea8236
+      internalID: -1766619284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_9
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2854
+        width: 313
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b33484f6d8a9724a847aa63fb9908bd
+      internalID: 945559618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2450
+        width: 315
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f133144386e69f9418c112228e5aab3d
+      internalID: -1560262962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_11
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2450
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0148ae906ecfb01429faa996743e1f12
+      internalID: -1495981189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_12
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2450
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645f847c6a75960408d9ce3d4a433edb
+      internalID: -604618932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_13
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 2450
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a12f8d0148aab640a599cfdf1069e56
+      internalID: -50451277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_14
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2450
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2a537cab7d50d4190797c1de47d0a2
+      internalID: -649830022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2044
+        width: 311
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec49923f957ce9f48ab8af62c010c978
+      internalID: 916749891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_16
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 2044
+        width: 313
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3458b9eef892fa64986314ec94a994b0
+      internalID: 930773252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_17
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 2044
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8b10abde5c1ab4abb8e16b66526e13
+      internalID: -2045356761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_18
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 2044
+        width: 314
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241f1c6d6a10f9547917ff874732d0e7
+      internalID: 2085136747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_19
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 2044
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd3b0cc77328bd4a8ee274d05bf8a97
+      internalID: 1362621970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_20
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1640
+        width: 314
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f86af5bc8d1fdb43a3f3383cfb1338c
+      internalID: 1468940563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_21
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1640
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fdf9c017d31b543b7e9c4f98cc3035
+      internalID: -1981197824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_22
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1640
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a934569e4d4014dbdaa4e27fae582b
+      internalID: 1017779202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_23
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1640
+        width: 314
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d7bb8fe05827d409af92347fc8d2f4
+      internalID: 1314744551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_24
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 1638
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad31b9a69e7bfd645833bebd362f85f1
+      internalID: -356914671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_25
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1234
+        width: 315
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927b915f511ed746a25642ed2e65eac
+      internalID: 886039106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_26
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1234
+        width: 311
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41af0bb591cfa149ad2773b9e167544
+      internalID: 421778710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_27
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1234
+        width: 312
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c070b6bddcc23d45a623665461ed9c4
+      internalID: -78017077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_28
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 1234
+        width: 314
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcd5ecdeba0e1e4f8a9ce84dea423fe
+      internalID: -1519945222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_29
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 1234
+        width: 313
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834a5063f4d8f2944a125e5bfe0d6816
+      internalID: 758415660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_30
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 829
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb40af0197463284d8f4a4c74033958f
+      internalID: 1968618979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_31
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 829
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df4faecc6c93bf41baa65cdca0ba0de
+      internalID: 2082299704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_32
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 829
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b744d81507c84324bb6fbf19a72ba6ea
+      internalID: -1639266270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_33
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 829
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bb11a91abf9cd4fb141858972793ae
+      internalID: -1716912185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_34
+      rect:
+        serializedVersion: 2
+        x: 3085
+        y: 829
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cb40a3c8fa9df4e9a81b205edd57f1
+      internalID: -1260476874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 424
+        width: 311
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a74885ceca34964f8ce2d9d4444a143
+      internalID: -932505630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_36
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 424
+        width: 312
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e953eb98d15b8e41be7c86684f1a5c9
+      internalID: 239274439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_37
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 424
+        width: 314
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9862f9b303b5c4945b6a0b2798fc2d8f
+      internalID: 1371339437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_38
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 424
+        width: 314
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc0b0c1801f63e4db73870cc10d390c
+      internalID: -1527212722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_39
+      rect:
+        serializedVersion: 2
+        x: 3083
+        y: 424
+        width: 313
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ca134c76cd7c149ad8cf93f3490c71
+      internalID: -1096449829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 19
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5e6238bb6bace48a0bd54a324696b2
+      internalID: -1494666939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_41
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 19
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23182f537b24b24ea23c7f785cabcdc
+      internalID: 730558865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Smoke-Break_42
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 20
+        width: 314
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef83dd6324ae714fb73a1c9af64dccf
+      internalID: 964782671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c73cfa9045c0bfa47b0a8bc9fe2b7b36
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Joblin_Smoke-Break_0: 885780671
+      Joblin_Smoke-Break_1: 1368614181
+      Joblin_Smoke-Break_10: -1560262962
+      Joblin_Smoke-Break_11: -1495981189
+      Joblin_Smoke-Break_12: -604618932
+      Joblin_Smoke-Break_13: -50451277
+      Joblin_Smoke-Break_14: -649830022
+      Joblin_Smoke-Break_15: 916749891
+      Joblin_Smoke-Break_16: 930773252
+      Joblin_Smoke-Break_17: -2045356761
+      Joblin_Smoke-Break_18: 2085136747
+      Joblin_Smoke-Break_19: 1362621970
+      Joblin_Smoke-Break_2: 447203713
+      Joblin_Smoke-Break_20: 1468940563
+      Joblin_Smoke-Break_21: -1981197824
+      Joblin_Smoke-Break_22: 1017779202
+      Joblin_Smoke-Break_23: 1314744551
+      Joblin_Smoke-Break_24: -356914671
+      Joblin_Smoke-Break_25: 886039106
+      Joblin_Smoke-Break_26: 421778710
+      Joblin_Smoke-Break_27: -78017077
+      Joblin_Smoke-Break_28: -1519945222
+      Joblin_Smoke-Break_29: 758415660
+      Joblin_Smoke-Break_3: -1613712550
+      Joblin_Smoke-Break_30: 1968618979
+      Joblin_Smoke-Break_31: 2082299704
+      Joblin_Smoke-Break_32: -1639266270
+      Joblin_Smoke-Break_33: -1716912185
+      Joblin_Smoke-Break_34: -1260476874
+      Joblin_Smoke-Break_35: -932505630
+      Joblin_Smoke-Break_36: 239274439
+      Joblin_Smoke-Break_37: 1371339437
+      Joblin_Smoke-Break_38: -1527212722
+      Joblin_Smoke-Break_39: -1096449829
+      Joblin_Smoke-Break_4: -50444745
+      Joblin_Smoke-Break_40: -1494666939
+      Joblin_Smoke-Break_41: 730558865
+      Joblin_Smoke-Break_42: 964782671
+      Joblin_Smoke-Break_5: 1454513275
+      Joblin_Smoke-Break_6: -942831179
+      Joblin_Smoke-Break_7: -256597476
+      Joblin_Smoke-Break_8: -1766619284
+      Joblin_Smoke-Break_9: 945559618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

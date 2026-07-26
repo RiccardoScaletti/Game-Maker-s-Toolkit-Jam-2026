@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 261891c1665512a4da2c6c3781d02156
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blin_Side-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 3258
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4f030b4253e934d821f675f0515b4c
+      internalID: 1617537231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 3258
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76336a0d5435f144bdeda9ae9510e91
+      internalID: 1427010507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 3258
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d6172a22ed38419d14aeef2a24b49
+      internalID: 32619723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 3258
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec96ebdd3883204c8a4fa4e9f369b89
+      internalID: 961513386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 3258
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60367d829ee6ba4499d65f7ba31682a
+      internalID: -1897635073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2852
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8ef0bba594fe546a76d52580a64b69
+      internalID: -1929698701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2852
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1db934e84553641a3eaa208c91225e
+      internalID: -1138250924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2852
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29afcb0f2c05b1b4db5dbfafe72898a3
+      internalID: 280205647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2852
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035a5aa414e29ea4cba4e6de1d178975
+      internalID: -1536523492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2852
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef60f37f1ff5674f971c28103cac777
+      internalID: -1732435116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2448
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6d8a83e7842b944a39b2abd9ea9c56
+      internalID: -1366665044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2448
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a3a4a79a5a50d4abdd4e7522ad2283
+      internalID: -814112827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2448
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f399315e233bf64fabdffa343166b9d
+      internalID: 785212679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2448
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f6e431b695fe04aa47cabd3c1471a2
+      internalID: 1694252962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2448
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2481978b81e83439a1c2d228609797
+      internalID: -1859099075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2042
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1d512820ba25441b0fbd8420aa789b
+      internalID: 579452392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2042
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830f83c29b8bd61468bc2e869641f04d
+      internalID: 2094260998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2042
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce4d5d40c25039458fe2ba22f5b7c7c
+      internalID: 1086051220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 2042
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67beab0fe618046a2b4607968fa924
+      internalID: -551621819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2042
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33651aadfec9d3e4399980ccbc684878
+      internalID: -2120408124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1638
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfb83cb59f21e34899d79fa29d89045
+      internalID: -2019631555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1638
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67d94f4a9659b64aaceaa5c201c00ef
+      internalID: -540120266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1638
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffae69eae865e9049aee3bacebb044ec
+      internalID: 768656014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1638
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912f8fb0b3e68ea41a25f0e2e5fc861d
+      internalID: -1681102779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 1637
+        width: 199
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b6fcdf81790eb4f8499675bb9d0023
+      internalID: 1307366212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1233
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3376752e56d504aab2b66081fe9428
+      internalID: -738032398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1233
+        width: 199
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b9d31a3740b754a89236166dcf2fdd
+      internalID: -1524303061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1233
+        width: 199
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f39f491fbace2d4fa4721a26841669e
+      internalID: 1116064387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1233
+        width: 199
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc297407a793e548834a221de129cdb
+      internalID: -532021940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 1233
+        width: 199
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a57b240a6d19408f88a70a1f9e162
+      internalID: -80005729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_30
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 827
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06abc3b2e24eb15438e373e8c9c7d542
+      internalID: -1129731475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 827
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338fc341c725b4f41a0e4afaee5c577e
+      internalID: 1369404184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 827
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9026c3525448ed748bdf92a7407a4cb3
+      internalID: 1029707436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 827
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be8a7c4f4b0ca4586e7d2a817133a5
+      internalID: 600115920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 827
+        width: 199
+        height: 365
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7563619cbfd1024ba06d8a5d19c2176
+      internalID: 2003276565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_35
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 421
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81a28e1ef42a59469d17632f3aa6587
+      internalID: 1673387437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 421
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ea7e1220ba4d24aab1504e34d4100d
+      internalID: 1472749039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 421
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579a19c61dbe4d24fa1210b514877482
+      internalID: -232101502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 421
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779c7a73b25ac444dbb8e2b38ca0f2ad
+      internalID: -955176783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 421
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31445b6792d5cb84ebd1aeb379c451fb
+      internalID: 1168221839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_40
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 17
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a658c1104e164a8b5b3bdd68282f7
+      internalID: 110575509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_41
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 17
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ecadc7fd1d7d42848cbce087d198b
+      internalID: 464546993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blin_Side-Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 17
+        width: 199
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5c2cab3f1b1b2458b0d538208fd713
+      internalID: 2041091444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b604717295775914e984d4e49c67e1c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Blin_Side-Idle_0: 1617537231
+      Blin_Side-Idle_1: 1427010507
+      Blin_Side-Idle_10: -1366665044
+      Blin_Side-Idle_11: -814112827
+      Blin_Side-Idle_12: 785212679
+      Blin_Side-Idle_13: 1694252962
+      Blin_Side-Idle_14: -1859099075
+      Blin_Side-Idle_15: 579452392
+      Blin_Side-Idle_16: 2094260998
+      Blin_Side-Idle_17: 1086051220
+      Blin_Side-Idle_18: -551621819
+      Blin_Side-Idle_19: -2120408124
+      Blin_Side-Idle_2: 32619723
+      Blin_Side-Idle_20: -2019631555
+      Blin_Side-Idle_21: -540120266
+      Blin_Side-Idle_22: 768656014
+      Blin_Side-Idle_23: -1681102779
+      Blin_Side-Idle_24: 1307366212
+      Blin_Side-Idle_25: -738032398
+      Blin_Side-Idle_26: -1524303061
+      Blin_Side-Idle_27: 1116064387
+      Blin_Side-Idle_28: -532021940
+      Blin_Side-Idle_29: -80005729
+      Blin_Side-Idle_3: 961513386
+      Blin_Side-Idle_30: -1129731475
+      Blin_Side-Idle_31: 1369404184
+      Blin_Side-Idle_32: 1029707436
+      Blin_Side-Idle_33: 600115920
+      Blin_Side-Idle_34: 2003276565
+      Blin_Side-Idle_35: 1673387437
+      Blin_Side-Idle_36: 1472749039
+      Blin_Side-Idle_37: -232101502
+      Blin_Side-Idle_38: -955176783
+      Blin_Side-Idle_39: 1168221839
+      Blin_Side-Idle_4: -1897635073
+      Blin_Side-Idle_40: 110575509
+      Blin_Side-Idle_41: 464546993
+      Blin_Side-Idle_42: 2041091444
+      Blin_Side-Idle_5: -1929698701
+      Blin_Side-Idle_6: -1138250924
+      Blin_Side-Idle_7: 280205647
+      Blin_Side-Idle_8: -1536523492
+      Blin_Side-Idle_9: -1732435116
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

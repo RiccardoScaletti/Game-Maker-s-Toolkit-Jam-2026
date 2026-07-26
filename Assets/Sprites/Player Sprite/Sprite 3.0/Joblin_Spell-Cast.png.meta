@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 6f89488466187894298f309a06bad327
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3260
+        width: 315
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff50284656a7be439e181843255d2d8
+      internalID: -1622889179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_1
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 3261
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da14c2db41e65e84ca518186377f84ac
+      internalID: 2697826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_2
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 3261
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f767480639cb98448a0801a1dc5af26
+      internalID: -1435824493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_3
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 3263
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27190904d70f64f4d9f16f3b701b5c13
+      internalID: 2007909721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_4
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3263
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c50681719efea4ea99f913ada1585f
+      internalID: 1107264772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2859
+        width: 310
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cd5f1c81e66224e9267cfddf4b9c40
+      internalID: -2063688748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_6
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2859
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4986f324e322043478005e3ee21eb55d
+      internalID: -215161889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_7
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2859
+        width: 309
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8f62fe9b3b20c46af2a67ec445c663
+      internalID: -1161446665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_8
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2859
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d025f98670b84cbf2c175b8dcbf28
+      internalID: 753720932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_9
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2859
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbca9dbd40274746a58936eb6da8a74
+      internalID: 1241156087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 2455
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e649c255562a664891cbfe492860a5b
+      internalID: 431169400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_11
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2455
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1d43ebc3dc571439a39cc739f7a0b0
+      internalID: 809718849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_12
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2455
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b29eff121bc88468f09d1160a01fa1
+      internalID: -2099084470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_13
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 2455
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bae161ca7cecd147a607cb9940fbc0b
+      internalID: -1691773183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_14
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 2455
+        width: 310
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd02958cd02c7843b8ff8c482e7bb70
+      internalID: 1404680496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2049
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2068fa64ff90a74ebebb5717291a96a
+      internalID: 1771383222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2049
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbff263730a0dc48892fe8e20e86f10
+      internalID: 1031704149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_17
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 2048
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366c87b5aa123464885473dc1e22216c
+      internalID: 2111496236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_18
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 2048
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb97981721f0aea4e8bd026a535fac94
+      internalID: -1377203986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_19
+      rect:
+        serializedVersion: 2
+        x: 3081
+        y: 2047
+        width: 312
+        height: 373
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ae6f81d031e064994c27ebed7c80a2
+      internalID: 1056477756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_20
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1640
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1949410caa3742c4c88afe44ce0e682f
+      internalID: 1915566391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_21
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1640
+        width: 313
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e910f6bcae2184d879709471b419e7
+      internalID: 841456723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_22
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1640
+        width: 314
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f107ae92bb0274428c2e62793124d61
+      internalID: 1018936702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_23
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 1640
+        width: 313
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364499c2c7c57e747b44641edf86a040
+      internalID: -704223211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_24
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 1640
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc237d238ba32ed43ae22977eda824ce
+      internalID: -338516778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1236
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685fb813fafb80342b9ca4f34790b3a3
+      internalID: -362180441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_26
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1236
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5cbda9851c94e41911cac03c31f8e0
+      internalID: 1247111783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_27
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1238
+        width: 309
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735ee443469dee94b86caa692153d992
+      internalID: -1564172454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_28
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 1238
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b4b3672de9954d942d27a3f41eadd
+      internalID: -946589302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_29
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 1238
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d848710334d47c041b4feb12ca3507c3
+      internalID: -1927957989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 832
+        width: 311
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a18c871ef754a6409a5e0c78ce9e6b5
+      internalID: 839631599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_31
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 832
+        width: 307
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150e8d39fd0a19044bd17ae0a0cf362f
+      internalID: 1540806428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_32
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 832
+        width: 308
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d1b67d12b69204b96cace12aad5880
+      internalID: -1259729462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_33
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 832
+        width: 308
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3cb8ff8e83cc408cc3f0ed46b0eb6
+      internalID: -1342966592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_34
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 832
+        width: 310
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd81fc213ca62640b281c3ec0cd4e80
+      internalID: -1610127534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_35
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 428
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12b37e15aa9304595df410fba6e273
+      internalID: -479760187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_36
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 428
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767a9a9dcb49fee43ace5dd71c5d316d
+      internalID: -2044320807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_37
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 428
+        width: 311
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af74b770ad165e488f341c97de62119
+      internalID: 1383736060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_38
+      rect:
+        serializedVersion: 2
+        x: 2370
+        y: 428
+        width: 309
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cd9096e2dfb404586d74bf8ed56797
+      internalID: -1748964404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_39
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 426
+        width: 312
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afafde2af4bac64bbbca177ebd4aee7
+      internalID: -1705252608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_40
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 22
+        width: 312
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad26601a0c436439c12a40bfef271e
+      internalID: -1540712189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_41
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 20
+        width: 310
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e33cd8b0b9b24493e3385da4cfc6a
+      internalID: 1223254590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Joblin_Spell-Cast_42
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 20
+        width: 310
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14816d4f1d0a9644e94ce35cc8e5944e
+      internalID: 1456345286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa89d93072b06b848b3d0edc3fb3cda1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Joblin_Spell-Cast_0: -1622889179
+      Joblin_Spell-Cast_1: 2697826
+      Joblin_Spell-Cast_10: 431169400
+      Joblin_Spell-Cast_11: 809718849
+      Joblin_Spell-Cast_12: -2099084470
+      Joblin_Spell-Cast_13: -1691773183
+      Joblin_Spell-Cast_14: 1404680496
+      Joblin_Spell-Cast_15: 1771383222
+      Joblin_Spell-Cast_16: 1031704149
+      Joblin_Spell-Cast_17: 2111496236
+      Joblin_Spell-Cast_18: -1377203986
+      Joblin_Spell-Cast_19: 1056477756
+      Joblin_Spell-Cast_2: -1435824493
+      Joblin_Spell-Cast_20: 1915566391
+      Joblin_Spell-Cast_21: 841456723
+      Joblin_Spell-Cast_22: 1018936702
+      Joblin_Spell-Cast_23: -704223211
+      Joblin_Spell-Cast_24: -338516778
+      Joblin_Spell-Cast_25: -362180441
+      Joblin_Spell-Cast_26: 1247111783
+      Joblin_Spell-Cast_27: -1564172454
+      Joblin_Spell-Cast_28: -946589302
+      Joblin_Spell-Cast_29: -1927957989
+      Joblin_Spell-Cast_3: 2007909721
+      Joblin_Spell-Cast_30: 839631599
+      Joblin_Spell-Cast_31: 1540806428
+      Joblin_Spell-Cast_32: -1259729462
+      Joblin_Spell-Cast_33: -1342966592
+      Joblin_Spell-Cast_34: -1610127534
+      Joblin_Spell-Cast_35: -479760187
+      Joblin_Spell-Cast_36: -2044320807
+      Joblin_Spell-Cast_37: 1383736060
+      Joblin_Spell-Cast_38: -1748964404
+      Joblin_Spell-Cast_39: -1705252608
+      Joblin_Spell-Cast_4: 1107264772
+      Joblin_Spell-Cast_40: -1540712189
+      Joblin_Spell-Cast_41: 1223254590
+      Joblin_Spell-Cast_42: 1456345286
+      Joblin_Spell-Cast_5: -2063688748
+      Joblin_Spell-Cast_6: -215161889
+      Joblin_Spell-Cast_7: -1161446665
+      Joblin_Spell-Cast_8: 753720932
+      Joblin_Spell-Cast_9: 1241156087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
