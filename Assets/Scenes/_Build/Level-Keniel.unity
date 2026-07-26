@@ -42850,10 +42850,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: InteractionPrompt
       objectReference: {fileID: 0}
-    - target: {fileID: 6987529146439829385, guid: 3775366505972ae43bdbf7644d836bed, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
