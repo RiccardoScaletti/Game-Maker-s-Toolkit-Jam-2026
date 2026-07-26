@@ -246,9 +246,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)_1
@@ -307,9 +315,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)_5
@@ -1005,9 +1021,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)_2
@@ -1441,9 +1465,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)_3
@@ -1599,9 +1631,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)
@@ -2251,6 +2291,11 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!1 &1446986662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2987023179395723745, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
+  m_PrefabInstance: {fileID: 1631761945}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1469443661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2387,9 +2432,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 470598669}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1543840428}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetBurnMultiplier
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject(Cigarette)_4
@@ -2454,6 +2507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496973865}
   - component: {fileID: 1496973864}
+  - component: {fileID: 1496973866}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -2490,6 +2544,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496973866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496973863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8e9c127638cd74eb90515e4a5a97a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CigCountManager
+  winCanvas: {fileID: 1446986662}
+  jointUi: {fileID: 610955777}
 --- !u!114 &1543840428 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
@@ -2531,7 +2599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1401576008529975526, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1401576008529975526, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -2543,7 +2611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1401576008529975526, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenCanvas
+      value: LoadBack
       objectReference: {fileID: 0}
     - target: {fileID: 1401576008529975526, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2551,7 +2619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1401576008529975526, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2987023179395723745, guid: 6fc8e9db23f35ac4ea0cfecca16e2d18, type: 3}
       propertyPath: m_Name

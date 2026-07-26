@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using System;
 
 /// <summary>
 /// Interaction: The script that is put onto whatever object you want the InteractionPromnpt Canvas to show up
@@ -9,7 +10,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Collider))]
 public class TaskInteractable : MonoBehaviour
 {
-    public int cigCount; //This is purely for the tutorial but gathering this many cigarretes will end the tutorial
 
     [Header("Prompt")]
     [SerializeField] private Sprite keycapSprite;
@@ -22,6 +22,11 @@ public class TaskInteractable : MonoBehaviour
 
     private bool playerInRange;
     private bool taskCompleted;
+
+    /*private void Start()
+    {
+        CigCountManager.CigCount += 0;
+    }*/
 
     private void Update()
     {
@@ -96,6 +101,7 @@ public class TaskInteractable : MonoBehaviour
         Debug.Log($"Task completed: {gameObject.name}");
 
         onTaskCompleted.Invoke();
+        CigCountManager.CigCount += 1;
 
         if (canOnlyCompleteOnce)
         {
@@ -107,7 +113,6 @@ public class TaskInteractable : MonoBehaviour
             InteractionUI.Instance.HidePrompt();
         }
         Destroy(gameObject);
-        cigCount++;
     }
 
     private void OnDisable()

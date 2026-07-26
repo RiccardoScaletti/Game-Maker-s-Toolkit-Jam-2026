@@ -83,6 +83,7 @@ public class CanvasManager : MonoBehaviour
     public void LoadGame()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Time.timeScale = 1f; //This is here since the game pauses when you win
 
         // Calculate the next scene index
         int nextSceneIndex = currentSceneIndex + 1;
@@ -105,6 +106,7 @@ public class CanvasManager : MonoBehaviour
     public void LoadBack()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Time.timeScale = 1f; //This is here since the game pauses when you win
 
         // Calculate the next scene index
         int nextSceneIndex = currentSceneIndex - 1;
