@@ -12,6 +12,8 @@ public class SpriteDirectionChanger : MonoBehaviour
     [SerializeField] private bool flipRightSide;
     [SerializeField] private bool flipLeftSide;
 
+    public bool isGranny;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -63,7 +65,13 @@ public class SpriteDirectionChanger : MonoBehaviour
             {
                 animator.SetBool("isBackward", false);
                 animator.SetBool("isForward", false);
-                animator.SetBool("isSideways", true);
+                if (!isGranny)
+                    animator.SetBool("isSideways", true);
+                else if (isGranny)
+                {
+                    animator.SetBool("isSideLeft", false);
+                    animator.SetBool("isSideRight", true);
+                }
                 spriteRenderer.flipX = flipRightSide;
             }
             // Moving Left
@@ -71,7 +79,13 @@ public class SpriteDirectionChanger : MonoBehaviour
             {
                 animator.SetBool("isBackward", false);
                 animator.SetBool("isForward", false);
-                animator.SetBool("isSideways", true);
+                if (!isGranny)
+                    animator.SetBool("isSideways", true);
+                else if (isGranny)
+                {
+                    animator.SetBool("isSideLeft", true);
+                    animator.SetBool("isSideRight", false);
+                }
                 spriteRenderer.flipX = flipLeftSide;
             }
         }
