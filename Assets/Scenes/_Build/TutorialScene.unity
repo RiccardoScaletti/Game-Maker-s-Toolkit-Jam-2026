@@ -1587,6 +1587,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 4
       objectReference: {fileID: 0}
@@ -2115,6 +2119,10 @@ PrefabInstance:
       propertyPath: keycapSprite
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 4
@@ -11230,6 +11238,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 4
       objectReference: {fileID: 0}
@@ -15513,6 +15525,10 @@ PrefabInstance:
       propertyPath: keycapSprite
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 4
@@ -31793,6 +31809,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 4
       objectReference: {fileID: 0}
@@ -45109,6 +45129,10 @@ PrefabInstance:
       propertyPath: keycapSprite
       value: 
       objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 2075965456845659195, guid: 3df6ef2295524244d89eabcb52c1e9e5, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2075965456845659195, guid: 3df6ef2295524244d89eabcb52c1e9e5, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
