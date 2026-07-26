@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &68318684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3777513838787731471, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
+  m_PrefabInstance: {fileID: 5018523324738291676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &808508413
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +251,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &1770163489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2376441535463906810, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
+  m_PrefabInstance: {fileID: 5018523324738291676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2056407093
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +445,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CashierMinigame
       objectReference: {fileID: 0}
+    - target: {fileID: 5639844706585847350, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
+      propertyPath: 'clientsImages.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1770163489}
+    - target: {fileID: 5639844706585847350, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
+      propertyPath: 'clientsImages.Array.data[2]'
+      value: 
+      objectReference: {fileID: 68318684}
     - target: {fileID: 7070402642986093921, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
       propertyPath: m_Camera
       value: 
