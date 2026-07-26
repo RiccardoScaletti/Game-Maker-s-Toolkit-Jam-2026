@@ -43494,21 +43494,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: JointTimerUI
       objectReference: {fileID: 0}
-    - target: {fileID: 1732406613574289054, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
+    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
+      propertyPath: emberGradient.key0.b
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: timerText
-      value: 
+      propertyPath: emberGradient.key0.g
+      value: 0.30122474
       objectReference: {fileID: 0}
     - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: startingDuration
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: beginAutomatically
-      value: 1
+      propertyPath: emberGradient.key0.r
+      value: 0.8805031
       objectReference: {fileID: 0}
     - target: {fileID: 7915817884279282587, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
       propertyPath: m_Pivot.x
