@@ -100,6 +100,7 @@ public class TaskInteractable : MonoBehaviour
         Debug.Log($"Task completed: {gameObject.name}");
 
         onTaskCompleted.Invoke();
+        CigCountManager.CigCount += 1;
 
         if (canOnlyCompleteOnce)
         {
