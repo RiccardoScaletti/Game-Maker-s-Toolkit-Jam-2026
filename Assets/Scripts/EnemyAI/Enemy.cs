@@ -58,6 +58,7 @@ namespace EnemyAI
         private void Awake()
         {
             Agent = GetComponent<NavMeshAgent>();
+            Agent.updateRotation = false;
             stateMachine = GetComponent<EnemyStateMachine>();
             stateMachine.InitializeStateMachine();
 
@@ -69,7 +70,7 @@ namespace EnemyAI
             if (anim == null)
             {
                 Debug.LogError($"No animator found on Enemy: {name}");
-            }            
+            }
         }
 
         private void Update()

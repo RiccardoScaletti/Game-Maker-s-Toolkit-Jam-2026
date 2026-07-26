@@ -5,31 +5,27 @@ namespace EnemyAI
 {
     public class PlayerCapturePoint : MonoBehaviour
     {
-        [Tooltip("How long the player stays captured")]
-        public float maxCaptureTime;
+        //[Tooltip("How long the player stays captured")]
+        //public float maxCaptureTime;
 
-        private float captureTime;
+        [SerializeField] private GameObject minigamePrefab;
+        private GameObject spawnedMinigame;
+        private CashierGameManager manager;
 
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        void Start()
+        private void OnEnable()
         {
-            captureTime = 0;
-            if (enabled)
-                enabled = false;
+            spawnedMinigame = Instantiate(minigamePrefab);
+            manager = spawnedMinigame.GetComponentInChildren<CashierGameManager>();
         }
 
-        // Update is called once per frame
-        void Update()
+        private void Update()
         {
-            captureTime += Time.deltaTime;
-
-            if (captureTime > maxCaptureTime)
+            Debug.Log("are clients server? " + manager.allClientsServed);
+            if (manager.allClientsServed)
             {
-                Debug.Log("Releasing player");
-                // release player
+                Destroy(spawnedMinigame);
                 PlayerManager.Instance.ReleasePlayerFromCapture();
-                captureTime = 0;
-                enabled = false;
+                gameObject.SetActive(false);
             }
         }
     }

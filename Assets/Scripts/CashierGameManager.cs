@@ -5,12 +5,16 @@ using UnityEngine.UI;
 
 public class CashierGameManager : MonoBehaviour
 {
-    public static CashierGameManager instance;
+
+    public bool allClientsServed;
+
+    [SerializeField] private AudioClip CashierSound;
 
     private void Awake()
     {
-        instance = this;
         controls = new CashierControls();
+        allClientsServed = false;
+        AudioManager.Instance.PlaySFX(CashierSound);
     }
 
     [Header("Cashier Images")]
@@ -79,6 +83,7 @@ public class CashierGameManager : MonoBehaviour
         if (currentClient >= clientsImages.Length)
         {
             CurrentChangetext.text = "All clients served!";
+            allClientsServed = true;
             return;
         }
 
@@ -188,6 +193,5 @@ public class CashierGameManager : MonoBehaviour
         Debug.Log(buttonsIndex);
         ChangeButtons[buttonsIndex].Select();
     }
-
 
 }
