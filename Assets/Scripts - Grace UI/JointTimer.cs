@@ -155,7 +155,7 @@ public class JointTimer : MonoBehaviour
 
     public void SetBurnMultiplier(float newMultiplier)
     {
-        BurnSpeedMultiplier = newMultiplier;
+        BurnSpeedMultiplier += newMultiplier;
     }
     private void UpdateVisuals()
     {

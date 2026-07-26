@@ -102,24 +102,13 @@ public class CanvasManager : MonoBehaviour
         }
     }
 
-    //The opposite of the LoadGame where it goes to the previous scene
+    //The opposite of the LoadGame where it goes to the main menu
     public void LoadBack()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         Time.timeScale = 1f; //This is here since the game pauses when you win
 
-        // Calculate the next scene index
-        int nextSceneIndex = currentSceneIndex - 1;
-
-        // Check if the next scene index exists in your Build Settings
-        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-        {
-            SceneManager.LoadScene(nextSceneIndex);
-        }
-        else
-        {
-            Debug.LogWarning("No next scene found in Build Settings! Loop back to main menu or stop.");
-        }
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
