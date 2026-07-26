@@ -1915,6 +1915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   allClientsServed: 0
+  CashierSound: {fileID: 8300000, guid: 9135004731747af419af6c6b4c146294, type: 3}
   openDrawer: {fileID: 4419331515279883039}
   closedDrawer: {fileID: 397132160105014258}
   clientsImages:
