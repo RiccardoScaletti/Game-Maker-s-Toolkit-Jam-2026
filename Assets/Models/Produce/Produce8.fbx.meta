@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: GradientPallete
-    second: {fileID: 2100000, guid: 52ee064212f5d7546bce944b08b7bd8d, type: 2}
+    second: {fileID: 2100000, guid: 57916ff02d9ff0e4cae07edaeebd5725, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
