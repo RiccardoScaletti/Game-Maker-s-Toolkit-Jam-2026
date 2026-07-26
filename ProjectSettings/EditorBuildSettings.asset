@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Build/Level-Keniel.unity
     guid: e8417a31f1e4e5a45b1b008e75272eda
+  - enabled: 1
+    path: Assets/Scenes/_Build/WinScene.unity
+    guid: 4a339891764e3794bbb916e84b46288f
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 2d628e84914b7084bb0ec8a90d81d33f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
