@@ -1,4 +1,3 @@
-using EnemyAI;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -27,7 +26,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
     private bool youWin;
-    public bool YouWin 
+    public bool YouWin
     {
         get { return youWin; }
         set
@@ -71,7 +70,7 @@ public class PlayerManager : MonoBehaviour
             return;
         }
         Instance = this;
-        
+
         animator = GetComponentInChildren<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         rb = GetComponent<Rigidbody>();
@@ -97,7 +96,7 @@ public class PlayerManager : MonoBehaviour
     {
         // Find target velocity
         Vector3 curVelocity = rb.linearVelocity;
-        Vector3 targetVelocity = new Vector3(moveVector.x, 0 ,moveVector.y);
+        Vector3 targetVelocity = new Vector3(moveVector.x, 0, moveVector.y);
 
         // align direction
         targetVelocity = transform.TransformDirection(targetVelocity);
@@ -132,7 +131,8 @@ public class PlayerManager : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (isCaptured) return;
+        if (isCaptured)
+            return;
         //if (interactable != null)
         //    interactable.Interact();
 
@@ -191,5 +191,5 @@ public class PlayerManager : MonoBehaviour
         rb.useGravity = true;
 
         transform.parent = null;
-    }  
+    }
 }
