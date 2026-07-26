@@ -131,6 +131,7 @@ MonoBehaviour:
   keyLetter: Press "E"
   actionMessage: READ
   canOnlyCompleteOnce: 1
+  taskDuration: 2
   onTaskCompleted:
     m_PersistentCalls:
       m_Calls:
@@ -150,6 +151,7 @@ MonoBehaviour:
   isSmoking: 0
   isTalking: 0
   stopSoundDelay: 1
+  taskAnimation: 2
 --- !u!54 &3655097544189455112
 Rigidbody:
   m_ObjectHideFlags: 0
