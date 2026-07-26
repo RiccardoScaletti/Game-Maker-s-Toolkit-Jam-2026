@@ -9265,6 +9265,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -9792,6 +9796,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -29695,6 +29703,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -33592,6 +33604,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -35428,6 +35444,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -43305,6 +43325,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -43452,6 +43476,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -45960,6 +45988,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -49733,6 +49765,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -54359,6 +54395,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -55275,6 +55315,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -59106,6 +59150,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -59994,6 +60042,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
@@ -66869,6 +66921,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -67567,6 +67623,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
     - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: taskAnimation
       value: 1
       objectReference: {fileID: 0}
@@ -67884,6 +67944,10 @@ PrefabInstance:
       value: TaskObject(Tome)
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: taskAnimation
       value: 2
       objectReference: {fileID: 0}
@@ -68027,6 +68091,10 @@ PrefabInstance:
       value: TaskObject(Tome)_3
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: taskAnimation
       value: 2
       objectReference: {fileID: 0}
@@ -68092,6 +68160,10 @@ PrefabInstance:
       value: TaskObject(Tome)_2
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: taskAnimation
       value: 2
       objectReference: {fileID: 0}
@@ -68156,6 +68228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaskObject(Tome)_1
       objectReference: {fileID: 0}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: keycapSprite
+      value: 
+      objectReference: {fileID: 1732345997, guid: 454b5f083e54bca449bf1b91304ab34f, type: 3}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: taskAnimation
       value: 2
