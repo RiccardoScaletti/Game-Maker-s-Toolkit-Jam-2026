@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a972b923a731d1d4d92d5307d6408214
+guid: 663ff474310a45840900c68da7523a55
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cig_Smoke-Sprite01
+      name: Title_BG_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 65
-        width: 1353
-        height: 1816
+        x: 0
+        y: 0
+        width: 2266
+        height: 1264
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b2897b7cdcc7aa44a300826b8a5f858
-      internalID: -1296919603
+      spriteID: 0e0770ec9e800a748b945fbde10cd1f9
+      internalID: 1457850359
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e88a58943cac2a4469ef04e0c58bd7ff
+    spriteID: 1bfbb5a82c0172d48ae044c15829c091
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cig_Smoke-Sprite01: -1296919603
+      Title_BG_0: 1457850359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

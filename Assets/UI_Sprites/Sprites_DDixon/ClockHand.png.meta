@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a972b923a731d1d4d92d5307d6408214
+guid: d682127b0f7e86447807bde3b7f4b76a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cig_Smoke-Sprite01
+      name: ClockHand_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 65
-        width: 1353
-        height: 1816
+        x: 1362
+        y: 915
+        width: 111
+        height: 191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b2897b7cdcc7aa44a300826b8a5f858
-      internalID: -1296919603
+      spriteID: 102c67228b023744d847feb6a7eb17f2
+      internalID: 2004155126
       vertices: []
       indices: 
       edges: []
@@ -122,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e88a58943cac2a4469ef04e0c58bd7ff
+    spriteID: 0db18caba5f4d8644851d94d1bca9c1a
     internalID: 0
     vertices: []
     indices: 
@@ -132,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cig_Smoke-Sprite01: -1296919603
+      ClockHand_0: 2004155126
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

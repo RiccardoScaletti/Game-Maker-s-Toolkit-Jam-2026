@@ -34247,17 +34247,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5de2a9c9326b19944a3fd22209874bf6, type: 3}
   m_PrefabInstance: {fileID: 1615364182}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1617206614 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 943812733114263840, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-  m_PrefabInstance: {fileID: 77802680270976174}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &1627052577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43505,22 +43494,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: JointTimerUI
       objectReference: {fileID: 0}
-    - target: {fileID: 1732406613574289054, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: timerText
-      value: 
-      objectReference: {fileID: 1617206614}
-    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: startingDuration
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
-      propertyPath: beginAutomatically
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7915817884279282587, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -44878,42 +44851,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
-    - target: {fileID: 559859283916776294, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1496973864}
     - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1136829833}
-    - target: {fileID: 4101090574257060044, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5543749640597962074, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -44995,61 +44940,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1496973864}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ResumeButtonWasClicked
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 7995554067957983952, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1496973864}
     - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadBack
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CanvasManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9029348289450798755, guid: 9832f46aa3bade541883a08fb48c5eaf, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1496973864}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
