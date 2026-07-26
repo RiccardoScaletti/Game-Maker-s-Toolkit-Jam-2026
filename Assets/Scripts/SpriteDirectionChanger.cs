@@ -3,19 +3,16 @@ using UnityEngine;
 public class SpriteDirectionChanger : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-    public Sprite frontSprite;
-    public Sprite backSprite;
-    public Sprite rightSprite;
-    public Sprite leftSprite;
 
     private Vector3 lastPosition;
     private Transform camTransform;
-    private Billboard billboard;
 
     private Animator animator;
 
     [SerializeField] private bool flipRightSide;
     [SerializeField] private bool flipLeftSide;
+
+    public bool isGranny;
 
     void Start()
     {
@@ -23,7 +20,6 @@ public class SpriteDirectionChanger : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         lastPosition = transform.position;
         camTransform = Camera.main.transform;
-        billboard = GetComponentInParent<Billboard>();
     }
 
     void Update()
@@ -55,7 +51,6 @@ public class SpriteDirectionChanger : MonoBehaviour
                 animator.SetBool("isForward", false);
                 animator.SetBool("isSideways", false);
                 spriteRenderer.flipX = false;
-                billboard.enabled = true;
             }
             // Moving Forward
             else if (angle >= 135f || angle <= -135f)
@@ -64,25 +59,34 @@ public class SpriteDirectionChanger : MonoBehaviour
                 animator.SetBool("isForward", true);
                 animator.SetBool("isSideways", false); 
                 spriteRenderer.flipX = false;
-                billboard.enabled = false; // Disable billboard when moving toward camera
             }
             // Moving Right
             else if (angle > 45f && angle < 135f)
             {
                 animator.SetBool("isBackward", false);
                 animator.SetBool("isForward", false);
-                animator.SetBool("isSideways", true);
+                if (!isGranny)
+                    animator.SetBool("isSideways", true);
+                else if (isGranny)
+                {
+                    animator.SetBool("isSideLeft", false);
+                    animator.SetBool("isSideRight", true);
+                }
                 spriteRenderer.flipX = flipRightSide;
-                billboard.enabled = true;
             }
             // Moving Left
             else
             {
                 animator.SetBool("isBackward", false);
                 animator.SetBool("isForward", false);
-                animator.SetBool("isSideways", true);
+                if (!isGranny)
+                    animator.SetBool("isSideways", true);
+                else if (isGranny)
+                {
+                    animator.SetBool("isSideLeft", true);
+                    animator.SetBool("isSideRight", false);
+                }
                 spriteRenderer.flipX = flipLeftSide;
-                billboard.enabled = true;
             }
         }
     }
