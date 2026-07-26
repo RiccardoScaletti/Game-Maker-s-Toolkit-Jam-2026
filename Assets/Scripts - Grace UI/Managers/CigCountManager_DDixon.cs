@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CigCountManager : MonoBehaviour
 {
@@ -16,7 +17,6 @@ public class CigCountManager : MonoBehaviour
     {
         if (CigCount == 6)
         {
-            Time.timeScale = 0;
             winCanvas.SetActive(true);
         }
     }
