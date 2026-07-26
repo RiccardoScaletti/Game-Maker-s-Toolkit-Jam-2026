@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: e168ba844595ff14fa579f2d0fcd749e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goose_Front-Idle_0
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 3320
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c3c03c1dd1d5548a554f72328a0268
+      internalID: 671399052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 3320
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7c7eb45de237e42ab5ad328d9a90d9
+      internalID: -1880268224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 3320
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4458b9a7f760f544bac2e1363f980dd7
+      internalID: 5202599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 3320
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06696e1b2b06a047bcd45400f47ac7f
+      internalID: 598847107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 3320
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b9eb6d81bf004409f8dcada076bac3
+      internalID: 1558715168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_5
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2914
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753079574ded1641a045861362434e0
+      internalID: 1625772834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2914
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc7052f0e6de8541b0eea39041d3a2c
+      internalID: 476091679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_7
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2914
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4f2c1e45fc66b46b404f33c2a44086
+      internalID: -1286289792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_8
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 2914
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5afbc89700a2d942b1d7574bce58ffa
+      internalID: -870320695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_9
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2914
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6308764eb5d7e2848a0c5d21c9fb0053
+      internalID: -813873431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_10
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2510
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c2b426a4b8a2142aa31f763fd5eb98
+      internalID: 618399329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2510
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a74e25cc8e77e4ca390de0111e549d
+      internalID: -2039922657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2510
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6d3f6734a650e4fbaeb5d3e22b2ea7
+      internalID: 751889469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_13
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 2510
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5206c9f11649924190efd1eecef4cb7
+      internalID: -252426059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_14
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2510
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86f2f6bddc5b5440b90c3e97f9dfa18
+      internalID: -779515319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_15
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2105
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af31639a54554946b16a43ad61cd600
+      internalID: 2015340761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_16
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2105
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a58f5de5f46d0478e3be38ff916bf8
+      internalID: -1801063805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_17
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2105
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8feb18397bf644a8f4a0bc70028f78
+      internalID: 1905138175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_18
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 2105
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8fcc90b8248806468363093322d440f
+      internalID: 1312100727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_19
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 2105
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7294844777de3274e83643a07c2bb212
+      internalID: -864737747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_20
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1701
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9230307c5e0e28846a6efb65f8fd2d06
+      internalID: -1618426735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_21
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1701
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6b6f2c98e95c84c91db4939354c414
+      internalID: -755529532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_22
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1701
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca5767cc702115439b8f0ab9352dfa7
+      internalID: -333660334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_23
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1701
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf91f38d02143ef4586ae08fc7a5d716
+      internalID: -530404647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_24
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 1701
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9f10f30762aa1468702f2bedd77673
+      internalID: -1202663179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_25
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1295
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07381486019ca64097bb7e548d77daa
+      internalID: 1046657892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1295
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915731beac79bae4abdadf1a933446be
+      internalID: -1393838308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_27
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1295
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698cf4ef4f7625f4b8b4d7c2cb714eb5
+      internalID: -1433638167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_28
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 1295
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe69ed21dd92a9449b2631b93f6c2da
+      internalID: -253188369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_29
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 1295
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18dcbfae69789241976d76fe1ab156c
+      internalID: -20877642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_30
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 889
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26e866299f58cd4689662095e2f3dab
+      internalID: 1664120699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_31
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 890
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a81780b1d715343892f15d7926bbe9
+      internalID: 2145455674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 890
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c78ea9567627e46a338791be26343a
+      internalID: -84557869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 890
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5582849861564348a14a61c78754278
+      internalID: 788892086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 889
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e56b9cee32c09641ad428666e6b1db4
+      internalID: 42524140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_35
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 485
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1bcf9f2ee1e6c4194646a770ab56d7
+      internalID: -2110064586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_36
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 485
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4722c2646e989d04489f82f4c86cf733
+      internalID: -125350518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_37
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 485
+        width: 133
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee231a76db72094dbab8221642b46a0
+      internalID: -837739116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_38
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 485
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95287afb733954ab73fc31800500ff
+      internalID: 1900055548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_39
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 485
+        width: 134
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db22b9494e0b2446a65b9255ad2eaaf
+      internalID: -831665385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 79
+        width: 134
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773a4c9c84cc6e74eb2c08c898aa8695
+      internalID: 1471250700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_41
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 79
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da402124211e0f44a8934d4e2f13415
+      internalID: -1426576978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goose_Front-Idle_42
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 79
+        width: 133
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1a843c98cd8a942b605cc60ed88919
+      internalID: 1597998517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7c7d3c3b1e831eb4d98ebc26e0ebd1ac
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Goose_Front-Idle_0: 671399052
+      Goose_Front-Idle_1: -1880268224
+      Goose_Front-Idle_10: 618399329
+      Goose_Front-Idle_11: -2039922657
+      Goose_Front-Idle_12: 751889469
+      Goose_Front-Idle_13: -252426059
+      Goose_Front-Idle_14: -779515319
+      Goose_Front-Idle_15: 2015340761
+      Goose_Front-Idle_16: -1801063805
+      Goose_Front-Idle_17: 1905138175
+      Goose_Front-Idle_18: 1312100727
+      Goose_Front-Idle_19: -864737747
+      Goose_Front-Idle_2: 5202599
+      Goose_Front-Idle_20: -1618426735
+      Goose_Front-Idle_21: -755529532
+      Goose_Front-Idle_22: -333660334
+      Goose_Front-Idle_23: -530404647
+      Goose_Front-Idle_24: -1202663179
+      Goose_Front-Idle_25: 1046657892
+      Goose_Front-Idle_26: -1393838308
+      Goose_Front-Idle_27: -1433638167
+      Goose_Front-Idle_28: -253188369
+      Goose_Front-Idle_29: -20877642
+      Goose_Front-Idle_3: 598847107
+      Goose_Front-Idle_30: 1664120699
+      Goose_Front-Idle_31: 2145455674
+      Goose_Front-Idle_32: -84557869
+      Goose_Front-Idle_33: 788892086
+      Goose_Front-Idle_34: 42524140
+      Goose_Front-Idle_35: -2110064586
+      Goose_Front-Idle_36: -125350518
+      Goose_Front-Idle_37: -837739116
+      Goose_Front-Idle_38: 1900055548
+      Goose_Front-Idle_39: -831665385
+      Goose_Front-Idle_4: 1558715168
+      Goose_Front-Idle_40: 1471250700
+      Goose_Front-Idle_41: -1426576978
+      Goose_Front-Idle_42: 1597998517
+      Goose_Front-Idle_5: 1625772834
+      Goose_Front-Idle_6: 476091679
+      Goose_Front-Idle_7: -1286289792
+      Goose_Front-Idle_8: -870320695
+      Goose_Front-Idle_9: -813873431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

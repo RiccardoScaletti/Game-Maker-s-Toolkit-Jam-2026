@@ -18,7 +18,7 @@ public class JointTimer : MonoBehaviour
 
     [Header("Timer")]
     [SerializeField, Min(1f)]
-    private float startingDuration = 600f;
+    private float startingDuration = 400f;
 
     [SerializeField]
     [Tooltip("How fast the multiplier decreases over time. Note: negative numbers will increase burn speed")]

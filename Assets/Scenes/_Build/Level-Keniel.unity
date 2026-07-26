@@ -9264,6 +9264,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_7
@@ -9788,6 +9792,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_5
@@ -29686,6 +29694,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject
@@ -33579,6 +33591,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_3
@@ -35412,6 +35428,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_2
@@ -43284,6 +43304,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_1
@@ -43428,6 +43452,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_4
@@ -45932,6 +45960,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_15
@@ -49701,6 +49733,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_11
@@ -54322,6 +54358,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_12
@@ -55235,6 +55275,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_16
@@ -59061,6 +59105,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_8
@@ -59946,6 +59994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_10
@@ -66816,6 +66868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_9
@@ -67510,6 +67566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1779174192}
     m_Modifications:
+    - target: {fileID: 3303893152507163120, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
+      propertyPath: taskAnimation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4951763539483826451, guid: 06e9f335980823b4686cfc42e3ab3720, type: 3}
       propertyPath: m_Name
       value: TaskObject_6
@@ -67824,6 +67884,10 @@ PrefabInstance:
       value: TaskObject(Tome)
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: taskAnimation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1302228506}
@@ -67963,6 +68027,10 @@ PrefabInstance:
       value: TaskObject(Tome)_3
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: taskAnimation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1302228506}
@@ -68024,6 +68092,10 @@ PrefabInstance:
       value: TaskObject(Tome)_2
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: taskAnimation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1302228506}
@@ -68083,6 +68155,10 @@ PrefabInstance:
     - target: {fileID: 1277854379160475805, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: m_Name
       value: TaskObject(Tome)_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
+      propertyPath: taskAnimation
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3849952591056797716, guid: 7baf07c2892bc9245bee2551d243254a, type: 3}
       propertyPath: onTaskCompleted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
