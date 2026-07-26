@@ -45302,6 +45302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: JointTimerUI
       objectReference: {fileID: 0}
+    - target: {fileID: 7604216287185696426, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
+      propertyPath: startingDuration
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 7915817884279282587, guid: 387ca0e80c7bfc849bcf0c77646c396b, type: 3}
       propertyPath: m_Pivot.x
       value: 0
