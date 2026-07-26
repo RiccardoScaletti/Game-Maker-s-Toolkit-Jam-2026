@@ -14,7 +14,7 @@ namespace EnemyAI
         //[Tooltip("The path the enemy will take ")]
         //public EnemyPath patrolPath;
         [Tooltip("The place the player will be taken to after being captured.")]
-        public PlayerCapturePoint playerCapturePoint;
+        public GameObject playerCapturePoint;
 
         [Tooltip("The gameobject the player will be parented to when captured.")]
         public GameObject playerHolder;

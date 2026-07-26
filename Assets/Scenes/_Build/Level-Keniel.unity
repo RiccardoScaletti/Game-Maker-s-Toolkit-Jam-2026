@@ -4448,6 +4448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCapturePoint
   maxCaptureTime: 10
+  minigamePrefab: {fileID: 2667739049057148736, guid: 9fc7eb84155fdb24e83776f3ed1bffde, type: 3}
 --- !u!4 &1562877856
 Transform:
   m_ObjectHideFlags: 0

@@ -1641,7 +1641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7329708711046380375
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1914,12 +1914,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 022080b8c5f23424992809fdadf79185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  allClientsServed: 0
   openDrawer: {fileID: 4419331515279883039}
   closedDrawer: {fileID: 397132160105014258}
   clientsImages:
   - {fileID: 6867826172088744583}
-  - {fileID: 2376441535463906810}
-  - {fileID: 3777513838787731471}
   ChangeButtons:
   - {fileID: 7661813617852876162}
   - {fileID: 1932812431734014481}
@@ -1988,7 +1987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2724859970855053755
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2416,15 +2415,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be4716250411f6e4086cb0a2f1c8d078, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
