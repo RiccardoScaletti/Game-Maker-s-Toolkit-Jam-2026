@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b03354a3296369f4e94bd7194db48d7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteDirectionChanger
-  flipRightSide: 0
-  flipLeftSide: 1
+  flipRightSide: 1
+  flipLeftSide: 0
   isGranny: 0
 --- !u!1 &8031874191172199924
 GameObject:
@@ -192,8 +192,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.66, y: 0.49999964, z: -43.87}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1, y: 1, z: 0.8333333}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2979598446765478361}
   - {fileID: 5914191846694780629}
@@ -214,22 +214,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI.Enemy_Supervisor
   debugCurState: 
   enemyType: 0
-  defaultSpeed: 3.5
-  chaseSpeed: 10
-  sightDistance: 20
-  fieldOfView: 40
+  defaultSpeed: 6
+  chaseSpeed: 15
+  sightDistance: 18
+  fieldOfView: 50
   eyeHeight: 0
-  maxTimeToLosePlayer: 8
+  maxTimeToLosePlayer: 10
   showRay: 1
   lastKnownPlayerPos: {x: 0, y: 0, z: 0}
-  maxSearchTimer: 10
+  maxSearchTimer: 8
   mainPath: {fileID: 0}
   anim: {fileID: 0}
   curVelocity: 0
   officePath: {fileID: 0}
   playerCapturePoint: {fileID: 0}
   playerHolder: {fileID: 1973038459042800868}
-  toOfficeSpeed: 20
+  toOfficeSpeed: 15
   maxTimeInOffice: 10
 --- !u!114 &6579704026578939608
 MonoBehaviour:

@@ -15,8 +15,11 @@ public class CanvasManager : MonoBehaviour
 
     private void Start()
     {
-        currentCanvas = startingCanvas;
-        currentCanvas.SetActive(true);
+        if (currentCanvas != null)
+        {
+            currentCanvas = startingCanvas;
+            currentCanvas.SetActive(true);
+        }
         if (pauseMenu != null)
         {
             pauseMenu.SetActive(false);

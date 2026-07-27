@@ -193,8 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ed1078d816eb94c850fec65ba21b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JointTimer
-  startingDuration: 800
-  multiplierDecreaseSpeed: 0.1
+  startingDuration: 500
+  multiplierDecreaseSpeed: 0.2
   maxMultiplier: 10
   beginAutomatically: 1
   continueWhileGamePaused: 0
