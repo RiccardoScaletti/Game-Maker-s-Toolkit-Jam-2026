@@ -214,15 +214,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI.Enemy_Supervisor
   debugCurState: 
   enemyType: 0
-  defaultSpeed: 3.5
-  chaseSpeed: 10
-  sightDistance: 20
-  fieldOfView: 40
+  defaultSpeed: 6
+  chaseSpeed: 15
+  sightDistance: 18
+  fieldOfView: 50
   eyeHeight: 0
-  maxTimeToLosePlayer: 8
+  maxTimeToLosePlayer: 10
   showRay: 1
   lastKnownPlayerPos: {x: 0, y: 0, z: 0}
-  maxSearchTimer: 10
+  maxSearchTimer: 8
   mainPath: {fileID: 0}
   anim: {fileID: 0}
   curVelocity: 0
