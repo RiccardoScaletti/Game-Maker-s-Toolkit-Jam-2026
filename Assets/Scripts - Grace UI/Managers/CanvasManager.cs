@@ -15,7 +15,7 @@ public class CanvasManager : MonoBehaviour
 
     private void Start()
     {
-        if (currentCanvas != null)
+        if (startingCanvas != null)
         {
             currentCanvas = startingCanvas;
             currentCanvas.SetActive(true);
