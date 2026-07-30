@@ -131,6 +131,7 @@ MonoBehaviour:
   keyLetter: Press "E"
   actionMessage: SMOKE
   canOnlyCompleteOnce: 1
+  taskDuration: 0
   onTaskCompleted:
     m_PersistentCalls:
       m_Calls:
@@ -146,6 +147,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  isRummageable: 0
+  isSmoking: 0
+  isTalking: 0
+  stopSoundDelay: 1
+  taskAnimation: 0
 --- !u!54 &211267999150876169
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -183,15 +189,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3cb3d8572fcc2ca498adc0510d5ba9f1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cb3d8572fcc2ca498adc0510d5ba9f1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cb3d8572fcc2ca498adc0510d5ba9f1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3cb3d8572fcc2ca498adc0510d5ba9f1, type: 3}
       propertyPath: m_LocalPosition.x
